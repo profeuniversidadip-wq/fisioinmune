@@ -14,3 +14,7 @@ Versión revisada del banco de preguntas de Sistema Inmune.
 - Alternativas reordenadas también en el segundo intento.
 - Retroalimentación específica según el distractor seleccionado.
 - Creado por Cristian Barahona Videla · Uso educativo · © 2026.
+
+
+## Corrección técnica
+Se corrigió la lectura de retroalimentación para usar `feedbackIncorrecto` según la alternativa elegida, evitando el `KeyError: errorComun`.

@@ -93,8 +93,8 @@ if responder:
  else:
   st.session_state.errores+=1
   if st.session_state.intento==1:
-   st.session_state.intento=2; st.session_state.feedback_tipo="error"; st.session_state.feedback='<span class="feedback-label">Error porque:</span> '+q["errorComun"]+'<br><br><span class="feedback-label">Tienes un segundo intento.</span>'; barajar(q)
+   error = q.get("feedbackIncorrecto", {}).get(elegido, "La alternativa elegida no corresponde al concepto evaluado."); st.session_state.intento=2; st.session_state.feedback_tipo="error"; st.session_state.feedback='<span class="feedback-label">Error porque:</span> '+error+'<br><br><span class="feedback-label">Tienes un segundo intento.</span>'; barajar(q)
   else:
-   st.session_state.respondidas+=1; st.session_state.bloqueada=True; st.session_state.feedback_tipo="error"; st.session_state.feedback='<span class="feedback-label">Error porque:</span> '+q["errorComun"]+'<br><br><span class="feedback-label">Respuesta correcta:</span> '+q["correcta_texto"]+'<br><br><span class="feedback-label">Idea clave:</span> '+q["ideaClave"]; st.session_state.historial.append({"id":q["id"],"nivel":q["nivel"],"tema":q["tema"],"correcta":False}); subir(False)
+   error = q.get("feedbackIncorrecto", {}).get(elegido, "La alternativa elegida no corresponde al concepto evaluado."); st.session_state.respondidas+=1; st.session_state.bloqueada=True; st.session_state.feedback_tipo="error"; st.session_state.feedback='<span class="feedback-label">Error porque:</span> '+error+'<br><br><span class="feedback-label">Respuesta correcta:</span> '+q["correcta_texto"]+'<br><br><span class="feedback-label">Idea clave:</span> '+q["ideaClave"]; st.session_state.historial.append({"id":q["id"],"nivel":q["nivel"],"tema":q["tema"],"correcta":False}); subir(False)
  st.rerun()
 footer()
