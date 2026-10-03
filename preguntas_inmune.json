@@ -2,263 +2,673 @@
   {
     "id": 1,
     "nivel": 1,
-    "tema": "Funciones",
-    "pregunta": "¿Cuál es una función del sistema inmune?",
-    "correcta_texto": "Reconocer agentes extraños o potencialmente dañinos",
+    "tema": "Inmunidad innata",
+    "pregunta": "¿Qué característica identifica mejor a la inmunidad innata?",
+    "correcta_texto": "Comienza rápidamente y reconoce características generales asociadas al daño o a microorganismos",
     "alternativas": [
-      "Reconocer agentes extraños o potencialmente dañinos",
-      "Transportar oxígeno",
-      "Regular la filtración renal",
-      "Generar movimiento voluntario"
+      "Comienza rápidamente y reconoce características generales asociadas al daño o a microorganismos",
+      "Requiere expansión clonal antes de actuar",
+      "Depende principalmente de anticuerpos específicos",
+      "Genera una respuesta secundaria más rápida por memoria"
     ],
-    "errorComun": "La alternativa elegida pertenece a otro sistema corporal, no a una función inmunitaria.",
-    "ideaClave": "El sistema inmune reconoce, contiene, elimina o controla amenazas y puede generar memoria."
+    "feedbackIncorrecto": {
+      "Requiere expansión clonal antes de actuar": "La expansión clonal es propia de la activación de linfocitos en la respuesta adaptativa.",
+      "Depende principalmente de anticuerpos específicos": "Los anticuerpos son efectores de la respuesta humoral adaptativa.",
+      "Genera una respuesta secundaria más rápida por memoria": "La memoria inmunológica es una característica central de la respuesta adaptativa."
+    },
+    "ideaClave": "La inmunidad innata se caracteriza por rapidez y reconocimiento general."
   },
   {
     "id": 2,
     "nivel": 1,
-    "tema": "Tolerancia",
-    "pregunta": "¿Qué significa tolerar lo propio?",
-    "correcta_texto": "Evitar respuestas dañinas contra tejidos normales",
+    "tema": "Inmunidad adaptativa",
+    "pregunta": "¿Qué rasgo distingue a la inmunidad adaptativa de la inmunidad innata?",
+    "correcta_texto": "Reconocimiento altamente específico y capacidad de generar memoria",
     "alternativas": [
-      "Evitar respuestas dañinas contra tejidos normales",
-      "Destruir todo tejido propio",
-      "No reconocer agentes extraños",
-      "Responder siempre con máxima intensidad"
+      "Reconocimiento altamente específico y capacidad de generar memoria",
+      "Inicio predominante en minutos y reconocimiento general",
+      "Dependencia exclusiva de barreras físicas y químicas",
+      "Participación principal de neutrófilos y células NK"
     ],
-    "errorComun": "Tolerar lo propio implica regular la respuesta para no dañar estructuras normales.",
-    "ideaClave": "La tolerancia protege los tejidos propios de una respuesta inmunitaria inapropiada."
+    "feedbackIncorrecto": {
+      "Inicio predominante en minutos y reconocimiento general": "Ese patrón corresponde a la inmunidad innata.",
+      "Dependencia exclusiva de barreras físicas y químicas": "Las barreras son componentes de la defensa innata.",
+      "Participación principal de neutrófilos y células NK": "Neutrófilos y NK son células destacadas de la inmunidad innata."
+    },
+    "ideaClave": "La adaptativa aporta especificidad y memoria."
   },
   {
     "id": 3,
     "nivel": 1,
-    "tema": "Inmunidad innata",
-    "pregunta": "¿Cuándo suele comenzar la inmunidad innata?",
-    "correcta_texto": "Minutos a horas",
+    "tema": "Primera línea de defensa",
+    "pregunta": "¿Cuál de las siguientes estructuras corresponde a una barrera física de primera línea?",
+    "correcta_texto": "Piel íntegra",
     "alternativas": [
-      "Minutos a horas",
-      "Días exclusivamente",
-      "Semanas",
-      "Solo después de anticuerpos"
+      "Piel íntegra",
+      "Neutrófilos circulantes",
+      "Linfocitos T CD8+",
+      "Células plasmáticas"
     ],
-    "errorComun": "La inmunidad innata es la respuesta inicial y actúa antes de la respuesta específica.",
-    "ideaClave": "La inmunidad innata actúa rápidamente: minutos a horas."
+    "feedbackIncorrecto": {
+      "Neutrófilos circulantes": "Los neutrófilos son fagocitos celulares, no una barrera física.",
+      "Linfocitos T CD8+": "Los T CD8+ participan en la respuesta celular adaptativa.",
+      "Células plasmáticas": "Las células plasmáticas producen anticuerpos."
+    },
+    "ideaClave": "La piel y las mucosas dificultan el ingreso de agentes al medio interno."
   },
   {
     "id": 4,
     "nivel": 1,
-    "tema": "Inmunidad adaptativa",
-    "pregunta": "¿Qué distingue a la inmunidad adaptativa?",
-    "correcta_texto": "Alta especificidad y memoria",
+    "tema": "Mecanismos mecánicos",
+    "pregunta": "¿Qué mecanismo contribuye a retirar microorganismos atrapados en la vía respiratoria?",
+    "correcta_texto": "Movimiento ciliar",
     "alternativas": [
-      "Alta especificidad y memoria",
-      "Respuesta idéntica siempre",
-      "Ausencia de linfocitos",
-      "Inicio siempre inmediato"
+      "Movimiento ciliar",
+      "Fagocitosis por macrófagos",
+      "Citotoxicidad por linfocitos T CD8+",
+      "Expansión clonal de linfocitos B"
     ],
-    "errorComun": "La inmunidad adaptativa requiere linfocitos específicos y puede recordar exposiciones previas.",
-    "ideaClave": "La adaptativa aporta especificidad y memoria."
+    "feedbackIncorrecto": {
+      "Fagocitosis por macrófagos": "La fagocitosis elimina agentes en tejidos, pero no desplaza el moco.",
+      "Citotoxicidad por linfocitos T CD8+": "La citotoxicidad actúa sobre células infectadas.",
+      "Expansión clonal de linfocitos B": "La expansión clonal pertenece a la respuesta adaptativa."
+    },
+    "ideaClave": "El moco atrapa partículas y los cilios ayudan a desplazarlas."
   },
   {
     "id": 5,
     "nivel": 1,
-    "tema": "Barreras",
-    "pregunta": "¿Cuál es una barrera física de primera línea?",
-    "correcta_texto": "Piel",
+    "tema": "Inflamación",
+    "pregunta": "Cuando una barrera externa ha sido superada, ¿qué mecanismo ayuda a contener inicialmente la amenaza en el tejido?",
+    "correcta_texto": "Respuesta inflamatoria",
     "alternativas": [
-      "Piel",
-      "IgG",
-      "Linfocito B",
-      "T CD8+"
+      "Respuesta inflamatoria",
+      "Respuesta secundaria de memoria",
+      "Producción de anticuerpos por células plasmáticas",
+      "Citotoxicidad específica por linfocitos T"
     ],
-    "errorComun": "La opción elegida pertenece a la respuesta celular o humoral, no a una barrera física.",
-    "ideaClave": "Piel y mucosas forman la primera barrera frente al ingreso de agentes."
+    "feedbackIncorrecto": {
+      "Respuesta secundaria de memoria": "La memoria requiere una respuesta adaptativa previa.",
+      "Producción de anticuerpos por células plasmáticas": "La producción específica de anticuerpos corresponde a una fase adaptativa posterior.",
+      "Citotoxicidad específica por linfocitos T": "La citotoxicidad T es adaptativa y altamente específica."
+    },
+    "ideaClave": "La inflamación ayuda a concentrar células y proteínas defensivas en el sitio afectado."
   },
   {
     "id": 6,
     "nivel": 1,
-    "tema": "Barreras",
-    "pregunta": "¿Qué hace principalmente el moco?",
-    "correcta_texto": "Atrapa microorganismos y partículas",
+    "tema": "Neutrófilos",
+    "pregunta": "Durante las primeras horas de una inflamación aguda bacteriana, ¿qué población celular suele predominar inicialmente?",
+    "correcta_texto": "Neutrófilos",
     "alternativas": [
-      "Atrapa microorganismos y partículas",
-      "Produce anticuerpos",
-      "Genera memoria",
-      "Destruye células infectadas"
+      "Neutrófilos",
+      "Monocitos/macrófagos",
+      "Eosinófilos",
+      "Linfocitos T"
     ],
-    "errorComun": "El moco es un mecanismo mecánico de barrera, no un efector adaptativo.",
-    "ideaClave": "El moco atrapa partículas y facilita su eliminación."
+    "feedbackIncorrecto": {
+      "Monocitos/macrófagos": "Los macrófagos participan activamente, pero el predominio inicial típico de la fase aguda corresponde a neutrófilos.",
+      "Eosinófilos": "Los eosinófilos se asocian especialmente a parásitos y reacciones alérgicas.",
+      "Linfocitos T": "Los linfocitos T participan sobre todo en la respuesta adaptativa."
+    },
+    "ideaClave": "Los neutrófilos son fagocitos de llegada rápida y relevantes en inflamación aguda."
   },
   {
     "id": 7,
     "nivel": 1,
-    "tema": "Barreras",
-    "pregunta": "¿Qué mecanismo desplaza el moco en la vía respiratoria?",
-    "correcta_texto": "Movimiento ciliar",
+    "tema": "Macrófagos",
+    "pregunta": "¿Qué combinación de funciones caracteriza mejor al macrófago?",
+    "correcta_texto": "Fagocitosis y participación en la presentación de antígenos",
     "alternativas": [
-      "Movimiento ciliar",
-      "Selección clonal",
-      "Opsonización",
-      "Expansión clonal"
+      "Fagocitosis y participación en la presentación de antígenos",
+      "Producción de anticuerpos y memoria humoral",
+      "Citotoxicidad específica y maduración tímica",
+      "Liberación de inmunoglobulinas y activación del complemento"
     ],
-    "errorComun": "La opción elegida corresponde a inmunidad adaptativa o fagocitosis, no al transporte mecánico de moco.",
-    "ideaClave": "El movimiento ciliar desplaza el moco hacia el exterior."
+    "feedbackIncorrecto": {
+      "Producción de anticuerpos y memoria humoral": "La producción de anticuerpos corresponde a células plasmáticas derivadas de linfocitos B.",
+      "Citotoxicidad específica y maduración tímica": "La citotoxicidad específica corresponde principalmente a T CD8+.",
+      "Liberación de inmunoglobulinas y activación del complemento": "Los macrófagos no secretan inmunoglobulinas."
+    },
+    "ideaClave": "El macrófago puede fagocitar y también contribuir a activar la respuesta adaptativa."
   },
   {
     "id": 8,
     "nivel": 1,
-    "tema": "Inflamación",
-    "pregunta": "¿Qué línea de defensa actúa cuando se comprometen las barreras externas?",
-    "correcta_texto": "Respuesta inflamatoria",
+    "tema": "Células dendríticas",
+    "pregunta": "¿Qué función destaca a las células dendríticas dentro de la respuesta inmunitaria?",
+    "correcta_texto": "Capturar antígenos y presentarlos a linfocitos T",
     "alternativas": [
-      "Respuesta inflamatoria",
-      "Memoria inmunológica",
-      "IgG secundaria",
-      "Respuesta humoral exclusivamente"
+      "Capturar antígenos y presentarlos a linfocitos T",
+      "Secretar grandes cantidades de anticuerpos",
+      "Destruir células infectadas por citotoxicidad específica",
+      "Predominar como fagocito de llegada inicial en inflamación aguda"
     ],
-    "errorComun": "La segunda línea descrita en la clase es inflamatoria, previa a una respuesta adaptativa específica completa.",
-    "ideaClave": "La inflamación contiene la amenaza cuando las barreras han sido superadas."
+    "feedbackIncorrecto": {
+      "Secretar grandes cantidades de anticuerpos": "Esa función corresponde a células plasmáticas.",
+      "Destruir células infectadas por citotoxicidad específica": "La citotoxicidad específica corresponde principalmente a T CD8+.",
+      "Predominar como fagocito de llegada inicial en inflamación aguda": "Ese papel corresponde principalmente a neutrófilos."
+    },
+    "ideaClave": "Las células dendríticas son un puente importante entre inmunidad innata y adaptativa."
   },
   {
     "id": 9,
     "nivel": 1,
-    "tema": "Neutrófilos",
-    "pregunta": "¿Qué célula llega rápidamente al foco inflamatorio agudo?",
-    "correcta_texto": "Neutrófilo",
+    "tema": "Células NK",
+    "pregunta": "¿Qué función corresponde principalmente a las células NK?",
+    "correcta_texto": "Destruir células infectadas o alteradas como parte de la respuesta innata",
     "alternativas": [
-      "Neutrófilo",
-      "Célula B de memoria",
-      "Célula plasmática",
-      "T regulador"
+      "Destruir células infectadas o alteradas como parte de la respuesta innata",
+      "Producir anticuerpos específicos",
+      "Presentar antígenos como función principal",
+      "Coordinar la activación de linfocitos B mediante ayuda CD4+"
     ],
-    "errorComun": "Las otras alternativas corresponden a células adaptativas con funciones diferentes.",
-    "ideaClave": "Los neutrófilos son fagocitos de llegada rápida en inflamación aguda."
+    "feedbackIncorrecto": {
+      "Producir anticuerpos específicos": "Los anticuerpos son producidos por células plasmáticas.",
+      "Presentar antígenos como función principal": "La presentación es característica de células dendríticas, macrófagos y linfocitos B.",
+      "Coordinar la activación de linfocitos B mediante ayuda CD4+": "Esa función corresponde a linfocitos T cooperadores."
+    },
+    "ideaClave": "Las NK participan en la eliminación temprana de células infectadas o alteradas."
   },
   {
     "id": 10,
     "nivel": 1,
-    "tema": "Macrófagos",
-    "pregunta": "¿Cuál es una función del macrófago?",
-    "correcta_texto": "Fagocitar microorganismos y restos",
+    "tema": "Antígeno",
+    "pregunta": "¿Qué definición corresponde a un antígeno?",
+    "correcta_texto": "Estructura capaz de ser reconocida específicamente por componentes de la respuesta inmunitaria",
     "alternativas": [
-      "Fagocitar microorganismos y restos",
-      "Producir IgM",
-      "Formar cilios",
-      "Convertirse en anticuerpo"
+      "Estructura capaz de ser reconocida específicamente por componentes de la respuesta inmunitaria",
+      "Célula encargada de fagocitar microorganismos",
+      "Proteína producida por una célula plasmática",
+      "Mediador que limita obligatoriamente toda respuesta inflamatoria"
     ],
-    "errorComun": "El macrófago es una célula fagocítica; no produce inmunoglobulinas ni estructuras epiteliales.",
-    "ideaClave": "Los macrófagos fagocitan y también pueden presentar antígenos."
+    "feedbackIncorrecto": {
+      "Célula encargada de fagocitar microorganismos": "Eso describe una función de fagocitos como neutrófilos o macrófagos.",
+      "Proteína producida por una célula plasmática": "Eso describe un anticuerpo o inmunoglobulina.",
+      "Mediador que limita obligatoriamente toda respuesta inflamatoria": "No corresponde a la definición de antígeno."
+    },
+    "ideaClave": "El antígeno es reconocido de manera específica por receptores de la respuesta adaptativa."
   },
   {
     "id": 11,
     "nivel": 1,
-    "tema": "Dendríticas",
-    "pregunta": "¿Qué función destaca en las células dendríticas?",
-    "correcta_texto": "Captura y presentación de antígenos",
+    "tema": "Presentación de antígeno",
+    "pregunta": "¿Cuál de las siguientes células puede actuar como célula presentadora de antígeno?",
+    "correcta_texto": "Célula dendrítica",
     "alternativas": [
-      "Captura y presentación de antígenos",
-      "Producción de hemoglobina",
-      "Síntesis exclusiva de IgA",
-      "Formación de moco"
+      "Célula dendrítica",
+      "Neutrófilo como función principal",
+      "Célula NK",
+      "Célula plasmática"
     ],
-    "errorComun": "La función descrita para dendríticas conecta reconocimiento innato con activación adaptativa.",
-    "ideaClave": "Las dendríticas capturan antígenos y los presentan a linfocitos T."
+    "feedbackIncorrecto": {
+      "Neutrófilo como función principal": "Aunque es un fagocito importante, la clase destaca como CPA a dendríticas, macrófagos y linfocitos B.",
+      "Célula NK": "Las NK se caracterizan por citotoxicidad innata, no por presentación antigénica.",
+      "Célula plasmática": "La célula plasmática se especializa en producir anticuerpos."
+    },
+    "ideaClave": "Las CPA capturan, procesan y presentan fragmentos de antígeno a linfocitos T."
   },
   {
     "id": 12,
     "nivel": 1,
-    "tema": "NK",
-    "pregunta": "¿Qué función realizan las células NK?",
-    "correcta_texto": "Destruir células infectadas o alteradas",
+    "tema": "Selección clonal",
+    "pregunta": "¿Qué describe la selección clonal?",
+    "correcta_texto": "Activación del linfocito cuyo receptor reconoce el antígeno",
     "alternativas": [
-      "Destruir células infectadas o alteradas",
-      "Producir anticuerpos",
-      "Formar moco",
-      "Convertirse en células plasmáticas"
+      "Activación del linfocito cuyo receptor reconoce el antígeno",
+      "Proliferación de todos los linfocitos sin distinción",
+      "Producción inmediata de anticuerpos por cualquier leucocito",
+      "Eliminación inespecífica de células infectadas por NK"
     ],
-    "errorComun": "Las opciones incorrectas pertenecen a células B o a barreras epiteliales.",
-    "ideaClave": "Las NK participan en destrucción de células infectadas o alteradas."
+    "feedbackIncorrecto": {
+      "Proliferación de todos los linfocitos sin distinción": "La selección clonal depende de especificidad, no de activación indiscriminada.",
+      "Producción inmediata de anticuerpos por cualquier leucocito": "Los anticuerpos son producidos por células plasmáticas derivadas de B activados.",
+      "Eliminación inespecífica de células infectadas por NK": "Eso pertenece a la respuesta innata, no a la selección clonal."
+    },
+    "ideaClave": "El antígeno selecciona al clon con el receptor adecuado."
   },
   {
     "id": 13,
     "nivel": 1,
-    "tema": "Eosinófilos",
-    "pregunta": "¿Con qué se relacionan especialmente los eosinófilos?",
-    "correcta_texto": "Alergia y defensa frente a parásitos",
+    "tema": "Expansión clonal",
+    "pregunta": "¿Qué ocurre durante la expansión clonal?",
+    "correcta_texto": "El linfocito activado prolifera y genera células con la misma especificidad",
     "alternativas": [
-      "Alergia y defensa frente a parásitos",
-      "Producción de eritrocitos",
-      "Memoria exclusiva",
-      "Conducción nerviosa"
+      "El linfocito activado prolifera y genera células con la misma especificidad",
+      "El antígeno se vuelve menos específico",
+      "Todos los linfocitos cambian su receptor",
+      "Los fagocitos se convierten en linfocitos de memoria"
     ],
-    "errorComun": "Los eosinófilos son granulocitos vinculados a inflamación, alergia y parásitos.",
-    "ideaClave": "Los eosinófilos participan en alergia y defensa antiparasitaria."
+    "feedbackIncorrecto": {
+      "El antígeno se vuelve menos específico": "La expansión no cambia la especificidad del antígeno.",
+      "Todos los linfocitos cambian su receptor": "La expansión aumenta el clon seleccionado; no cambia indiscriminadamente los receptores.",
+      "Los fagocitos se convierten en linfocitos de memoria": "Los fagocitos no se transforman en linfocitos."
+    },
+    "ideaClave": "La expansión clonal aumenta el número de células capaces de reconocer el mismo antígeno."
   },
   {
     "id": 14,
     "nivel": 1,
-    "tema": "Antígeno",
-    "pregunta": "¿Qué es un antígeno?",
-    "correcta_texto": "Una sustancia reconocida específicamente por la respuesta inmunitaria",
+    "tema": "Respuesta humoral",
+    "pregunta": "¿Qué componente es central en la inmunidad humoral?",
+    "correcta_texto": "Linfocitos B y anticuerpos",
     "alternativas": [
-      "Una sustancia reconocida específicamente por la respuesta inmunitaria",
-      "Una célula que produce anticuerpos",
-      "Una barrera mecánica",
-      "Un fagocito"
+      "Linfocitos B y anticuerpos",
+      "Linfocitos T CD8+ y citotoxicidad",
+      "Neutrófilos y fagocitosis",
+      "Células NK y destrucción innata"
     ],
-    "errorComun": "Las otras opciones describen células o mecanismos, no la estructura reconocida específicamente.",
-    "ideaClave": "Un antígeno es una estructura reconocida específicamente por componentes inmunitarios."
+    "feedbackIncorrecto": {
+      "Linfocitos T CD8+ y citotoxicidad": "Eso caracteriza la respuesta celular adaptativa.",
+      "Neutrófilos y fagocitosis": "Eso corresponde principalmente a la respuesta innata.",
+      "Células NK y destrucción innata": "Las NK forman parte de la inmunidad innata."
+    },
+    "ideaClave": "La inmunidad humoral actúa mediante linfocitos B, células plasmáticas y anticuerpos."
   },
   {
     "id": 15,
     "nivel": 1,
-    "tema": "Linfocitos B",
-    "pregunta": "¿En qué se diferencia un B activado para producir anticuerpos?",
-    "correcta_texto": "Célula plasmática",
+    "tema": "Respuesta celular",
+    "pregunta": "¿Qué componente es central en la inmunidad celular adaptativa?",
+    "correcta_texto": "Linfocitos T",
     "alternativas": [
-      "Célula plasmática",
-      "Neutrófilo",
-      "NK",
-      "Macrófago"
+      "Linfocitos T",
+      "Neutrófilos",
+      "Células plasmáticas",
+      "Mastocitos"
     ],
-    "errorComun": "Las otras células pertenecen a la respuesta innata.",
-    "ideaClave": "Los linfocitos B pueden diferenciarse en células plasmáticas productoras de anticuerpos."
+    "feedbackIncorrecto": {
+      "Neutrófilos": "Los neutrófilos son fagocitos de la inmunidad innata.",
+      "Células plasmáticas": "Las células plasmáticas pertenecen a la respuesta humoral.",
+      "Mastocitos": "Los mastocitos participan en inflamación y alergia."
+    },
+    "ideaClave": "La respuesta celular adaptativa está mediada principalmente por linfocitos T."
   },
   {
     "id": 16,
     "nivel": 1,
-    "tema": "Linfocitos T",
-    "pregunta": "¿Qué subpoblación coordina la respuesta y activa otras células?",
-    "correcta_texto": "T CD4+ cooperador",
+    "tema": "Linfocitos B",
+    "pregunta": "¿Qué célula deriva de un linfocito B activado y secreta anticuerpos?",
+    "correcta_texto": "Célula plasmática",
     "alternativas": [
-      "T CD4+ cooperador",
-      "T CD8+",
-      "T regulador",
-      "Neutrófilo"
+      "Célula plasmática",
+      "Linfocito T citotóxico",
+      "Macrófago",
+      "Célula NK"
     ],
-    "errorComun": "CD8+ es citotóxico y T regulador limita la respuesta; la función coordinadora corresponde a CD4+.",
-    "ideaClave": "Los T CD4+ cooperadores coordinan y favorecen la activación de otras células."
+    "feedbackIncorrecto": {
+      "Linfocito T citotóxico": "Los T citotóxicos pertenecen a otro linaje de la respuesta adaptativa.",
+      "Macrófago": "El macrófago pertenece al sistema mononuclear fagocítico.",
+      "Célula NK": "La NK pertenece a la respuesta innata."
+    },
+    "ideaClave": "Los linfocitos B activados pueden diferenciarse en células plasmáticas y células de memoria."
   },
   {
     "id": 17,
     "nivel": 1,
-    "tema": "Linfocitos T",
-    "pregunta": "¿Qué subpoblación destruye células infectadas o alteradas?",
-    "correcta_texto": "T CD8+ citotóxico",
+    "tema": "Linfocitos T CD4+",
+    "pregunta": "¿Qué función corresponde principalmente a los linfocitos T CD4+ cooperadores?",
+    "correcta_texto": "Coordinar la respuesta y favorecer la activación de otras células inmunitarias",
     "alternativas": [
-      "T CD8+ citotóxico",
-      "T CD4+",
-      "T regulador",
-      "B de memoria"
+      "Coordinar la respuesta y favorecer la activación de otras células inmunitarias",
+      "Destruir directamente células infectadas como función principal",
+      "Secretar grandes cantidades de inmunoglobulinas",
+      "Actuar como principal fagocito de inflamación aguda"
     ],
-    "errorComun": "La función citotóxica específica corresponde a T CD8+.",
-    "ideaClave": "Los T CD8+ reconocen células infectadas o alteradas e inducen su destrucción."
+    "feedbackIncorrecto": {
+      "Destruir directamente células infectadas como función principal": "La destrucción directa es característica de T CD8+.",
+      "Secretar grandes cantidades de inmunoglobulinas": "Las inmunoglobulinas son secretadas por células plasmáticas.",
+      "Actuar como principal fagocito de inflamación aguda": "Ese papel corresponde a neutrófilos."
+    },
+    "ideaClave": "Los T CD4+ liberan señales que coordinan y potencian otras respuestas."
   },
   {
     "id": 18,
     "nivel": 1,
+    "tema": "Linfocitos T CD8+",
+    "pregunta": "¿Qué función corresponde principalmente a los linfocitos T CD8+?",
+    "correcta_texto": "Reconocer y destruir células infectadas o alteradas",
+    "alternativas": [
+      "Reconocer y destruir células infectadas o alteradas",
+      "Favorecer principalmente la producción de anticuerpos por ayuda cooperadora",
+      "Limitar la respuesta para mantener tolerancia",
+      "Producir inmunoglobulinas específicas"
+    ],
+    "feedbackIncorrecto": {
+      "Favorecer principalmente la producción de anticuerpos por ayuda cooperadora": "Ese papel corresponde sobre todo a T CD4+.",
+      "Limitar la respuesta para mantener tolerancia": "Ese papel corresponde a T reguladores.",
+      "Producir inmunoglobulinas específicas": "Los anticuerpos son producidos por células plasmáticas."
+    },
+    "ideaClave": "Los T CD8+ son efectores citotóxicos de la respuesta adaptativa."
+  },
+  {
+    "id": 19,
+    "nivel": 1,
+    "tema": "Linfocitos T reguladores",
+    "pregunta": "¿Qué función corresponde a los linfocitos T reguladores?",
+    "correcta_texto": "Limitar la respuesta inmunitaria y contribuir a mantener la tolerancia",
+    "alternativas": [
+      "Limitar la respuesta inmunitaria y contribuir a mantener la tolerancia",
+      "Destruir células infectadas como función principal",
+      "Producir IgG durante la respuesta secundaria",
+      "Fagocitar bacterias en el foco inflamatorio"
+    ],
+    "feedbackIncorrecto": {
+      "Destruir células infectadas como función principal": "La citotoxicidad corresponde principalmente a T CD8+.",
+      "Producir IgG durante la respuesta secundaria": "Las inmunoglobulinas son producidas por células plasmáticas.",
+      "Fagocitar bacterias en el foco inflamatorio": "La fagocitosis corresponde a neutrófilos y macrófagos."
+    },
+    "ideaClave": "Los T reguladores ayudan a prevenir respuestas excesivas o dañinas contra lo propio."
+  },
+  {
+    "id": 20,
+    "nivel": 1,
     "tema": "Inmunoglobulinas",
-    "pregunta": "¿Qué inmunoglobulina aparece primero en la respuesta primaria?",
+    "pregunta": "¿Qué asociación entre inmunoglobulina y característica es correcta?",
+    "correcta_texto": "IgA: predomina en mucosas y secreciones",
+    "alternativas": [
+      "IgA: predomina en mucosas y secreciones",
+      "IgM: principal inmunoglobulina de la respuesta secundaria",
+      "IgE: principal inmunoglobulina circulante",
+      "IgD: primera inmunoglobulina secretada en la respuesta primaria"
+    ],
+    "feedbackIncorrecto": {
+      "IgM: principal inmunoglobulina de la respuesta secundaria": "IgM destaca por aparecer primero en la respuesta primaria.",
+      "IgE: principal inmunoglobulina circulante": "La principal inmunoglobulina circulante descrita es IgG.",
+      "IgD: primera inmunoglobulina secretada en la respuesta primaria": "IgD se encuentra principalmente como receptor en linfocitos B."
+    },
+    "ideaClave": "IgA se asocia a mucosas; IgM a respuesta primaria; IgG a circulación y respuesta secundaria; IgE a alergia/parásitos."
+  },
+  {
+    "id": 21,
+    "nivel": 2,
+    "tema": "Innata vs adaptativa",
+    "pregunta": "Un paciente comienza a contener una infección pocas horas después del ingreso del microorganismo, antes de desarrollar anticuerpos específicos. ¿Qué interpretación es más adecuada?",
+    "correcta_texto": "Predomina inicialmente la respuesta innata",
+    "alternativas": [
+      "Predomina inicialmente la respuesta innata",
+      "Predomina una respuesta adaptativa secundaria",
+      "La respuesta depende principalmente de células B de memoria",
+      "La defensa requiere primero expansión clonal de linfocitos"
+    ],
+    "feedbackIncorrecto": {
+      "Predomina una respuesta adaptativa secundaria": "No se menciona exposición previa y la rapidez inicial es característica de la respuesta innata.",
+      "La respuesta depende principalmente de células B de memoria": "La memoria requiere una respuesta adaptativa previa.",
+      "La defensa requiere primero expansión clonal de linfocitos": "La expansión clonal tarda más y pertenece a la respuesta adaptativa."
+    },
+    "ideaClave": "La inmunidad innata puede actuar antes de que aparezca una respuesta específica."
+  },
+  {
+    "id": 22,
+    "nivel": 2,
+    "tema": "Memoria inmunológica",
+    "pregunta": "Tras una segunda exposición al mismo antígeno, la respuesta aparece con mayor rapidez. ¿Qué hallazgo explica mejor este cambio?",
+    "correcta_texto": "Persistencia de linfocitos de memoria específicos",
+    "alternativas": [
+      "Persistencia de linfocitos de memoria específicos",
+      "Mayor número basal de neutrófilos específicos para ese antígeno",
+      "Conversión de células NK en linfocitos B",
+      "Aumento permanente de la permeabilidad vascular"
+    ],
+    "feedbackIncorrecto": {
+      "Mayor número basal de neutrófilos específicos para ese antígeno": "Los neutrófilos no poseen especificidad adaptativa ni memoria clonal de ese tipo.",
+      "Conversión de células NK en linfocitos B": "Las NK no se transforman en linfocitos B.",
+      "Aumento permanente de la permeabilidad vascular": "La permeabilidad vascular pertenece a la inflamación y no explica memoria específica."
+    },
+    "ideaClave": "La memoria permite una respuesta adaptativa más rápida y eficaz."
+  },
+  {
+    "id": 23,
+    "nivel": 2,
+    "tema": "Barreras",
+    "pregunta": "Una alteración del movimiento ciliar respiratorio aumenta la susceptibilidad a infecciones. ¿Qué función defensiva se ha perdido principalmente?",
+    "correcta_texto": "Eliminación mecánica de partículas y microorganismos atrapados en el moco",
+    "alternativas": [
+      "Eliminación mecánica de partículas y microorganismos atrapados en el moco",
+      "Producción de anticuerpos en la mucosa",
+      "Citotoxicidad específica contra células infectadas",
+      "Selección clonal de linfocitos T"
+    ],
+    "feedbackIncorrecto": {
+      "Producción de anticuerpos en la mucosa": "La producción de anticuerpos corresponde a la respuesta adaptativa humoral.",
+      "Citotoxicidad específica contra células infectadas": "La citotoxicidad T no depende del movimiento ciliar.",
+      "Selección clonal de linfocitos T": "La selección clonal es un proceso adaptativo."
+    },
+    "ideaClave": "El aclaramiento mucociliar es una defensa mecánica de primera línea."
+  },
+  {
+    "id": 24,
+    "nivel": 2,
+    "tema": "Inflamación",
+    "pregunta": "Una lesión permite que bacterias atraviesen la piel. Poco después aumenta el reclutamiento de células defensivas al sitio. ¿Qué proceso interpreta mejor el fenómeno?",
+    "correcta_texto": "Respuesta inflamatoria de contención",
+    "alternativas": [
+      "Respuesta inflamatoria de contención",
+      "Respuesta secundaria de memoria",
+      "Diferenciación de células B de memoria",
+      "Maduración de linfocitos T en el timo"
+    ],
+    "feedbackIncorrecto": {
+      "Respuesta secundaria de memoria": "La inflamación local temprana no requiere memoria previa.",
+      "Diferenciación de células B de memoria": "Ese proceso pertenece a la respuesta adaptativa.",
+      "Maduración de linfocitos T en el timo": "La maduración tímica no explica el reclutamiento local agudo."
+    },
+    "ideaClave": "La inflamación ayuda a contener la amenaza y concentrar defensas en el tejido."
+  },
+  {
+    "id": 25,
+    "nivel": 2,
+    "tema": "Neutrófilos",
+    "pregunta": "En un exudado inflamatorio obtenido pocas horas después de una infección bacteriana predominan neutrófilos. ¿Qué función se espera principalmente de estas células?",
+    "correcta_texto": "Fagocitar microorganismos en el foco inflamatorio",
+    "alternativas": [
+      "Fagocitar microorganismos en el foco inflamatorio",
+      "Presentar antígeno como función principal a linfocitos T",
+      "Producir anticuerpos específicos",
+      "Mantener memoria inmunológica de larga duración"
+    ],
+    "feedbackIncorrecto": {
+      "Presentar antígeno como función principal a linfocitos T": "La presentación antigénica se destaca especialmente en dendríticas, macrófagos y linfocitos B.",
+      "Producir anticuerpos específicos": "Los anticuerpos son producidos por células plasmáticas.",
+      "Mantener memoria inmunológica de larga duración": "La memoria corresponde a linfocitos adaptativos."
+    },
+    "ideaClave": "Los neutrófilos son fagocitos de respuesta rápida."
+  },
+  {
+    "id": 26,
+    "nivel": 2,
+    "tema": "Macrófagos",
+    "pregunta": "Un macrófago fagocita una bacteria y luego muestra fragmentos antigénicos a un linfocito T. ¿Qué papel adicional está cumpliendo?",
+    "correcta_texto": "Actuar como célula presentadora de antígeno",
+    "alternativas": [
+      "Actuar como célula presentadora de antígeno",
+      "Convertirse en célula plasmática",
+      "Ejercer citotoxicidad específica CD8+",
+      "Generar memoria humoral"
+    ],
+    "feedbackIncorrecto": {
+      "Convertirse en célula plasmática": "Las células plasmáticas derivan de linfocitos B.",
+      "Ejercer citotoxicidad específica CD8+": "La citotoxicidad específica es función de T CD8+.",
+      "Generar memoria humoral": "La memoria humoral depende de linfocitos B de memoria."
+    },
+    "ideaClave": "Los macrófagos pueden conectar fagocitosis con activación adaptativa."
+  },
+  {
+    "id": 27,
+    "nivel": 2,
+    "tema": "Células dendríticas",
+    "pregunta": "Una célula dendrítica migra desde un tejido hacia un ganglio tras capturar un antígeno. ¿Qué evento es más probable que ocurra después?",
+    "correcta_texto": "Presentación del antígeno a linfocitos T específicos",
+    "alternativas": [
+      "Presentación del antígeno a linfocitos T específicos",
+      "Producción masiva de IgG por la célula dendrítica",
+      "Maduración de la dendrítica a linfocito B",
+      "Conversión del antígeno en complemento"
+    ],
+    "feedbackIncorrecto": {
+      "Producción masiva de IgG por la célula dendrítica": "Las inmunoglobulinas son producidas por células plasmáticas.",
+      "Maduración de la dendrítica a linfocito B": "Las células dendríticas no se convierten en linfocitos B.",
+      "Conversión del antígeno en complemento": "El antígeno no se transforma en proteínas del complemento."
+    },
+    "ideaClave": "La célula dendrítica favorece el inicio de respuestas T específicas."
+  },
+  {
+    "id": 28,
+    "nivel": 2,
+    "tema": "Selección clonal",
+    "pregunta": "Un antígeno activa solo a los linfocitos que poseen un receptor compatible. ¿Qué concepto explica este fenómeno?",
+    "correcta_texto": "Selección clonal",
+    "alternativas": [
+      "Selección clonal",
+      "Opsonización",
+      "Inflamación aguda",
+      "Neutralización"
+    ],
+    "feedbackIncorrecto": {
+      "Opsonización": "La opsonización facilita el reconocimiento de un agente por fagocitos.",
+      "Inflamación aguda": "La inflamación es una respuesta de contención tisular.",
+      "Neutralización": "La neutralización es una función de los anticuerpos."
+    },
+    "ideaClave": "La selección clonal depende de la especificidad entre receptor y antígeno."
+  },
+  {
+    "id": 29,
+    "nivel": 2,
+    "tema": "Expansión clonal",
+    "pregunta": "Después de reconocer un antígeno, un clon de linfocitos aumenta notablemente en número. ¿Qué proceso está ocurriendo?",
+    "correcta_texto": "Expansión clonal",
+    "alternativas": [
+      "Expansión clonal",
+      "Neutralización",
+      "Opsonización",
+      "Tolerancia inmunológica"
+    ],
+    "feedbackIncorrecto": {
+      "Neutralización": "La neutralización es una función de anticuerpos.",
+      "Opsonización": "La opsonización facilita la fagocitosis.",
+      "Tolerancia inmunológica": "La tolerancia limita respuestas contra lo propio."
+    },
+    "ideaClave": "La expansión clonal amplifica el número de células con la misma especificidad."
+  },
+  {
+    "id": 30,
+    "nivel": 2,
+    "tema": "Respuesta humoral",
+    "pregunta": "Un patógeno se encuentra principalmente en el espacio extracelular. ¿Qué mecanismo adaptativo resulta especialmente útil?",
+    "correcta_texto": "Producción de anticuerpos por células plasmáticas",
+    "alternativas": [
+      "Producción de anticuerpos por células plasmáticas",
+      "Citotoxicidad por T CD8+ como mecanismo principal",
+      "Destrucción por células NK como mecanismo adaptativo",
+      "Maduración tímica de nuevos linfocitos durante la infección"
+    ],
+    "feedbackIncorrecto": {
+      "Citotoxicidad por T CD8+ como mecanismo principal": "Los T CD8+ son más relevantes frente a células infectadas.",
+      "Destrucción por células NK como mecanismo adaptativo": "Las NK pertenecen a la inmunidad innata.",
+      "Maduración tímica de nuevos linfocitos durante la infección": "La maduración tímica no es el mecanismo efector principal frente al agente extracelular."
+    },
+    "ideaClave": "La inmunidad humoral es especialmente importante frente a agentes extracelulares y toxinas."
+  },
+  {
+    "id": 31,
+    "nivel": 2,
+    "tema": "Respuesta celular",
+    "pregunta": "Un virus permanece dentro de células del huésped. ¿Qué componente adaptativo adquiere mayor relevancia?",
+    "correcta_texto": "Linfocitos T citotóxicos",
+    "alternativas": [
+      "Linfocitos T citotóxicos",
+      "Células plasmáticas como principal efector celular",
+      "IgA secretora como principal mecanismo citotóxico",
+      "Neutrófilos como componente adaptativo específico"
+    ],
+    "feedbackIncorrecto": {
+      "Células plasmáticas como principal efector celular": "Las células plasmáticas producen anticuerpos y pertenecen a la respuesta humoral.",
+      "IgA secretora como principal mecanismo citotóxico": "IgA actúa principalmente en mucosas y secreciones, no como célula citotóxica.",
+      "Neutrófilos como componente adaptativo específico": "Los neutrófilos son parte de la inmunidad innata."
+    },
+    "ideaClave": "Los T CD8+ son importantes frente a células infectadas por agentes intracelulares."
+  },
+  {
+    "id": 32,
+    "nivel": 2,
+    "tema": "Linfocitos B",
+    "pregunta": "Un linfocito B activado comienza a proliferar y luego se diferencia. ¿Qué dos poblaciones pueden resultar?",
+    "correcta_texto": "Células plasmáticas y células B de memoria",
+    "alternativas": [
+      "Células plasmáticas y células B de memoria",
+      "Neutrófilos y macrófagos",
+      "T CD4+ y T CD8+",
+      "Células NK y mastocitos"
+    ],
+    "feedbackIncorrecto": {
+      "Neutrófilos y macrófagos": "Estas células pertenecen a otros linajes.",
+      "T CD4+ y T CD8+": "Son subpoblaciones de linfocitos T, no productos de diferenciación de un B activado.",
+      "Células NK y mastocitos": "No derivan de un clon B activado."
+    },
+    "ideaClave": "La respuesta B genera efectores productores de anticuerpos y memoria."
+  },
+  {
+    "id": 33,
+    "nivel": 2,
+    "tema": "Neutralización",
+    "pregunta": "Un anticuerpo se une a una toxina e impide que ésta ejerza su efecto. ¿Qué función está realizando?",
+    "correcta_texto": "Neutralización",
+    "alternativas": [
+      "Neutralización",
+      "Opsonización",
+      "Aglutinación",
+      "Presentación antigénica"
+    ],
+    "feedbackIncorrecto": {
+      "Opsonización": "La opsonización facilita la fagocitosis del agente.",
+      "Aglutinación": "La aglutinación agrupa partículas o agentes.",
+      "Presentación antigénica": "La presentación la realizan células presentadoras de antígeno."
+    },
+    "ideaClave": "La neutralización bloquea o dificulta la acción del agente o toxina."
+  },
+  {
+    "id": 34,
+    "nivel": 2,
+    "tema": "Opsonización",
+    "pregunta": "Después de quedar recubierta por anticuerpos, una bacteria es fagocitada con mayor facilidad. ¿Qué proceso explica esto?",
+    "correcta_texto": "Opsonización",
+    "alternativas": [
+      "Opsonización",
+      "Neutralización",
+      "Selección clonal",
+      "Expansión clonal"
+    ],
+    "feedbackIncorrecto": {
+      "Neutralización": "La neutralización bloquea la acción de un agente o toxina.",
+      "Selección clonal": "La selección clonal activa linfocitos específicos.",
+      "Expansión clonal": "La expansión clonal aumenta el número de linfocitos específicos."
+    },
+    "ideaClave": "La opsonización facilita el reconocimiento del agente por los fagocitos."
+  },
+  {
+    "id": 35,
+    "nivel": 2,
+    "tema": "Complemento",
+    "pregunta": "Un anticuerpo unido a un microorganismo favorece una cascada que aumenta inflamación, fagocitosis y destrucción. ¿Qué mecanismo participa?",
+    "correcta_texto": "Activación del complemento",
+    "alternativas": [
+      "Activación del complemento",
+      "Selección clonal",
+      "Tolerancia periférica",
+      "Maduración tímica"
+    ],
+    "feedbackIncorrecto": {
+      "Selección clonal": "La selección clonal se refiere a activación de linfocitos específicos.",
+      "Tolerancia periférica": "La tolerancia limita respuestas contra lo propio.",
+      "Maduración tímica": "La maduración tímica corresponde al desarrollo de linfocitos T."
+    },
+    "ideaClave": "El complemento puede potenciar inflamación, fagocitosis y eliminación del agente."
+  },
+  {
+    "id": 36,
+    "nivel": 2,
+    "tema": "Inmunoglobulinas",
+    "pregunta": "En una respuesta primaria reciente se detecta la primera inmunoglobulina descrita en la clase. ¿Cuál es?",
     "correcta_texto": "IgM",
     "alternativas": [
       "IgM",
@@ -266,254 +676,18 @@
       "IgA",
       "IgE"
     ],
-    "errorComun": "Las otras inmunoglobulinas tienen características predominantes distintas.",
-    "ideaClave": "IgM es la primera inmunoglobulina destacada en una respuesta primaria."
+    "feedbackIncorrecto": {
+      "IgG": "IgG es importante en la respuesta secundaria y es la principal inmunoglobulina circulante.",
+      "IgA": "IgA predomina en mucosas y secreciones.",
+      "IgE": "IgE se relaciona con alergia y defensa frente a parásitos."
+    },
+    "ideaClave": "IgM aparece primero en una respuesta primaria."
   },
   {
-    "id": 19,
-    "nivel": 1,
-    "tema": "Inmunoglobulinas",
-    "pregunta": "¿Qué inmunoglobulina predomina en mucosas y secreciones?",
-    "correcta_texto": "IgA",
-    "alternativas": [
-      "IgA",
-      "IgM",
-      "IgG",
-      "IgD"
-    ],
-    "errorComun": "La inmunoglobulina asociada a saliva, lágrimas y leche materna es IgA.",
-    "ideaClave": "IgA predomina en mucosas y secreciones."
-  },
-  {
-    "id": 20,
-    "nivel": 1,
-    "tema": "Inmunoglobulinas",
-    "pregunta": "¿Qué inmunoglobulina se asocia a alergia y parásitos?",
-    "correcta_texto": "IgE",
-    "alternativas": [
-      "IgE",
-      "IgM",
-      "IgA",
-      "IgD"
-    ],
-    "errorComun": "La asociación con alergia y parásitos corresponde a IgE.",
-    "ideaClave": "IgE participa en reacciones alérgicas y defensa frente a parásitos."
-  },
-  {
-    "id": 21,
-    "nivel": 2,
-    "tema": "Innata vs adaptativa",
-    "pregunta": "Una defensa comienza en minutos y reconoce rasgos generales. ¿Cuál predomina?",
-    "correcta_texto": "Inmunidad innata",
-    "alternativas": [
-      "Inmunidad innata",
-      "Adaptativa de memoria",
-      "Humoral secundaria",
-      "Células plasmáticas exclusivamente"
-    ],
-    "errorComun": "Rapidez y reconocimiento general corresponden a la inmunidad innata.",
-    "ideaClave": "La innata aporta rapidez y reconocimiento general."
-  },
-  {
-    "id": 22,
-    "nivel": 2,
-    "tema": "Innata vs adaptativa",
-    "pregunta": "Una respuesta aparece días después y reconoce un antígeno concreto. ¿Cuál es?",
-    "correcta_texto": "Inmunidad adaptativa",
-    "alternativas": [
-      "Inmunidad adaptativa",
-      "Innata exclusivamente",
-      "Barrera física",
-      "Mecanismo ciliar"
-    ],
-    "errorComun": "La respuesta específica tardía corresponde a activación de linfocitos adaptativos.",
-    "ideaClave": "La adaptativa tarda más en la primera exposición porque requiere activación clonal."
-  },
-  {
-    "id": 23,
-    "nivel": 2,
-    "tema": "Memoria",
-    "pregunta": "¿Por qué una segunda exposición puede generar una respuesta más rápida?",
-    "correcta_texto": "Por células de memoria específicas",
-    "alternativas": [
-      "Por células de memoria específicas",
-      "Por neutrófilos con memoria específica",
-      "Por cilios específicos",
-      "Porque todos los anticuerpos reconocen todo"
-    ],
-    "errorComun": "La memoria específica es una propiedad de la respuesta adaptativa.",
-    "ideaClave": "Las células de memoria permiten una respuesta posterior más rápida y eficaz."
-  },
-  {
-    "id": 24,
-    "nivel": 2,
-    "tema": "Secuencia de defensa",
-    "pregunta": "Si un agente atraviesa una mucosa, ¿qué ayuda primero a contenerlo en el tejido?",
-    "correcta_texto": "Respuesta inflamatoria",
-    "alternativas": [
-      "Respuesta inflamatoria",
-      "Memoria B inmediata",
-      "IgG secundaria exclusiva",
-      "Selección clonal antes de toda señal innata"
-    ],
-    "errorComun": "La inflamación es la respuesta de contención temprana cuando la barrera falla.",
-    "ideaClave": "La inflamación concentra células y proteínas defensivas en el sitio afectado."
-  },
-  {
-    "id": 25,
-    "nivel": 2,
-    "tema": "Fagocitos",
-    "pregunta": "¿Qué comparten neutrófilos y macrófagos?",
-    "correcta_texto": "Participan en fagocitosis",
-    "alternativas": [
-      "Participan en fagocitosis",
-      "Producen anticuerpos",
-      "Forman epitelio",
-      "Son células de memoria"
-    ],
-    "errorComun": "Ambos son fagocitos, no productores de anticuerpos ni células de memoria.",
-    "ideaClave": "Neutrófilos y macrófagos participan en la eliminación por fagocitosis."
-  },
-  {
-    "id": 26,
-    "nivel": 2,
-    "tema": "Macrófagos",
-    "pregunta": "¿Por qué un macrófago también puede activar la respuesta adaptativa?",
-    "correcta_texto": "Puede presentar antígenos",
-    "alternativas": [
-      "Puede presentar antígenos",
-      "Produce IgM",
-      "Se convierte en T",
-      "Forma cilios"
-    ],
-    "errorComun": "El macrófago puede actuar como CPA además de fagocitar.",
-    "ideaClave": "La presentación antigénica conecta fagocitosis con activación adaptativa."
-  },
-  {
-    "id": 27,
-    "nivel": 2,
-    "tema": "CPA",
-    "pregunta": "¿Qué consecuencia tiene que una dendrítica presente antígeno a un T?",
-    "correcta_texto": "Favorece reconocimiento y activación específica",
-    "alternativas": [
-      "Favorece reconocimiento y activación específica",
-      "Convierte antígeno en anticuerpo",
-      "Transforma T en neutrófilo",
-      "Elimina selección clonal"
-    ],
-    "errorComun": "La presentación permite que un linfocito T específico reconozca el antígeno.",
-    "ideaClave": "Las CPA muestran fragmentos antigénicos a linfocitos T específicos."
-  },
-  {
-    "id": 28,
-    "nivel": 2,
-    "tema": "Selección clonal",
-    "pregunta": "¿Qué ocurre en la selección clonal?",
-    "correcta_texto": "Se activa el linfocito con receptor adecuado",
-    "alternativas": [
-      "Se activa el linfocito con receptor adecuado",
-      "Se activan todos igual",
-      "El antígeno pierde especificidad",
-      "Neutrófilos generan memoria"
-    ],
-    "errorComun": "La selección clonal es específica y no activa indiscriminadamente todos los linfocitos.",
-    "ideaClave": "El antígeno selecciona el clon capaz de reconocerlo."
-  },
-  {
-    "id": 29,
-    "nivel": 2,
-    "tema": "Expansión clonal",
-    "pregunta": "¿Qué significa expansión clonal?",
-    "correcta_texto": "Proliferación del clon específico",
-    "alternativas": [
-      "Proliferación del clon específico",
-      "Destruir todas las células propias",
-      "Convertir antígeno en Ig",
-      "Reducir células específicas"
-    ],
-    "errorComun": "Expandir un clon significa aumentar el número de células con la misma especificidad.",
-    "ideaClave": "Tras activarse, el clon prolifera y genera numerosas células específicas."
-  },
-  {
-    "id": 30,
-    "nivel": 2,
-    "tema": "Humoral",
-    "pregunta": "¿Frente a qué es especialmente útil la respuesta humoral?",
-    "correcta_texto": "Microorganismos extracelulares y toxinas",
-    "alternativas": [
-      "Microorganismos extracelulares y toxinas",
-      "Células infectadas exclusivamente",
-      "Tejidos propios",
-      "Impulsos nerviosos"
-    ],
-    "errorComun": "Los anticuerpos actúan sobre agentes y toxinas presentes fuera de las células.",
-    "ideaClave": "La respuesta humoral está mediada por B y anticuerpos."
-  },
-  {
-    "id": 31,
-    "nivel": 2,
-    "tema": "Celular",
-    "pregunta": "¿Frente a qué adquiere mayor importancia la respuesta T celular?",
-    "correcta_texto": "Microorganismos intracelulares y células infectadas",
-    "alternativas": [
-      "Microorganismos intracelulares y células infectadas",
-      "Toxinas libres únicamente",
-      "Partículas atrapadas en moco",
-      "Ácido gástrico"
-    ],
-    "errorComun": "La respuesta T celular es especialmente relevante cuando el problema está dentro de una célula.",
-    "ideaClave": "Los linfocitos T coordinan o destruyen células infectadas."
-  },
-  {
-    "id": 32,
-    "nivel": 2,
-    "tema": "Linfocitos B",
-    "pregunta": "¿Qué origina un B activado tras diferenciarse?",
-    "correcta_texto": "Células plasmáticas y B de memoria",
-    "alternativas": [
-      "Células plasmáticas y B de memoria",
-      "Neutrófilos y macrófagos",
-      "NK y mastocitos",
-      "Eritrocitos y plaquetas"
-    ],
-    "errorComun": "La diferenciación B produce células efectoras y de memoria del mismo linaje.",
-    "ideaClave": "Las plasmáticas producen anticuerpos y las B de memoria persisten."
-  },
-  {
-    "id": 33,
-    "nivel": 2,
-    "tema": "Anticuerpos",
-    "pregunta": "¿Qué describe la neutralización?",
-    "correcta_texto": "Unión al agente o toxina que dificulta su acción",
-    "alternativas": [
-      "Unión al agente o toxina que dificulta su acción",
-      "Aumento de T",
-      "Formación de cilios",
-      "Conversión de macrófago en B"
-    ],
-    "errorComun": "Neutralizar significa bloquear o dificultar la acción del agente por unión específica.",
-    "ideaClave": "Los anticuerpos neutralizan uniéndose a toxinas o microorganismos."
-  },
-  {
-    "id": 34,
-    "nivel": 2,
-    "tema": "Anticuerpos",
-    "pregunta": "¿Qué efecto tiene la opsonización?",
-    "correcta_texto": "Facilita reconocimiento por fagocitos",
-    "alternativas": [
-      "Facilita reconocimiento por fagocitos",
-      "Impide fagocitosis",
-      "Elimina fagocitos",
-      "Transforma IgG en IgM"
-    ],
-    "errorComun": "La opsonización favorece, no impide, la fagocitosis.",
-    "ideaClave": "El recubrimiento del agente facilita su captura por fagocitos."
-  },
-  {
-    "id": 35,
+    "id": 37,
     "nivel": 2,
     "tema": "Inmunoglobulinas",
-    "pregunta": "¿Qué inmunoglobulina es principal en circulación y relevante en respuesta secundaria?",
+    "pregunta": "En una persona previamente expuesta al mismo antígeno predomina una inmunoglobulina importante en la respuesta secundaria. ¿Cuál es?",
     "correcta_texto": "IgG",
     "alternativas": [
       "IgG",
@@ -521,682 +695,828 @@
       "IgA",
       "IgD"
     ],
-    "errorComun": "La asociación descrita para respuesta secundaria y circulación corresponde a IgG.",
-    "ideaClave": "IgG es la principal inmunoglobulina circulante y destaca en respuesta secundaria."
-  },
-  {
-    "id": 36,
-    "nivel": 2,
-    "tema": "CD4",
-    "pregunta": "¿Qué ocurre si disminuyen marcadamente los T CD4+?",
-    "correcta_texto": "Se debilita la coordinación y activación de otras células",
-    "alternativas": [
-      "Se debilita la coordinación y activación de otras células",
-      "Aumentan todos los anticuerpos",
-      "La respuesta queda en la piel",
-      "CD8 se convierte en B"
-    ],
-    "errorComun": "Los CD4+ cumplen una función cooperadora central.",
-    "ideaClave": "Los T CD4+ favorecen activación de B, macrófagos y otras células."
-  },
-  {
-    "id": 37,
-    "nivel": 2,
-    "tema": "T reguladores",
-    "pregunta": "¿Qué puede ocurrir si disminuyen los T reguladores?",
-    "correcta_texto": "Menor control de respuestas excesivas y tolerancia",
-    "alternativas": [
-      "Menor control de respuestas excesivas y tolerancia",
-      "Más movimiento ciliar",
-      "Desaparecen barreras",
-      "Neutrófilos producen anticuerpos"
-    ],
-    "errorComun": "Los T reguladores limitan la respuesta y mantienen tolerancia.",
-    "ideaClave": "Su disminución puede favorecer respuestas excesivas contra tejidos propios."
+    "feedbackIncorrecto": {
+      "IgM": "IgM destaca por aparecer primero en la respuesta primaria.",
+      "IgA": "IgA predomina en mucosas y secreciones.",
+      "IgD": "IgD se encuentra principalmente como receptor en linfocitos B."
+    },
+    "ideaClave": "IgG tiene un papel destacado en la respuesta secundaria."
   },
   {
     "id": 38,
     "nivel": 2,
-    "tema": "IgD",
-    "pregunta": "¿Qué inmunoglobulina se encuentra principalmente como receptor en B?",
-    "correcta_texto": "IgD",
+    "tema": "IgA",
+    "pregunta": "Una disminución marcada de una inmunoglobulina afecta principalmente la defensa de mucosas y secreciones. ¿Cuál es la más probable?",
+    "correcta_texto": "IgA",
     "alternativas": [
-      "IgD",
       "IgA",
-      "IgE",
-      "IgG"
+      "IgG",
+      "IgM",
+      "IgD"
     ],
-    "errorComun": "La característica de receptor en superficie B corresponde principalmente a IgD.",
-    "ideaClave": "IgD se encuentra principalmente como receptor en linfocitos B."
+    "feedbackIncorrecto": {
+      "IgG": "IgG es la principal inmunoglobulina circulante.",
+      "IgM": "IgM aparece primero en la respuesta primaria.",
+      "IgD": "IgD se encuentra principalmente como receptor de linfocitos B."
+    },
+    "ideaClave": "IgA predomina en mucosas y secreciones."
   },
   {
     "id": 39,
     "nivel": 2,
-    "tema": "Interacción",
-    "pregunta": "¿Cómo se relacionan innata y adaptativa?",
-    "correcta_texto": "La innata inicia y aporta señales que favorecen la adaptativa",
+    "tema": "T reguladores",
+    "pregunta": "Una persona presenta una respuesta inmunitaria excesiva contra tejidos normales. ¿Qué función reguladora parece insuficiente?",
+    "correcta_texto": "Limitación de la respuesta y mantenimiento de la tolerancia por T reguladores",
     "alternativas": [
-      "La innata inicia y aporta señales que favorecen la adaptativa",
-      "Funcionan separadas",
-      "La adaptativa termina antes",
-      "La innata aparece tras anticuerpos"
+      "Limitación de la respuesta y mantenimiento de la tolerancia por T reguladores",
+      "Citotoxicidad de T CD8+",
+      "Producción de anticuerpos por células plasmáticas",
+      "Fagocitosis por neutrófilos"
     ],
-    "errorComun": "La clase enfatiza interacción continua, no fases aisladas.",
-    "ideaClave": "La innata aporta rapidez y la adaptativa especificidad y memoria."
+    "feedbackIncorrecto": {
+      "Citotoxicidad de T CD8+": "La citotoxicidad elimina células infectadas o alteradas, no mantiene por sí sola la tolerancia.",
+      "Producción de anticuerpos por células plasmáticas": "La producción de anticuerpos no es la principal función reguladora.",
+      "Fagocitosis por neutrófilos": "La fagocitosis es un mecanismo efector innato."
+    },
+    "ideaClave": "Los T reguladores ayudan a evitar respuestas excesivas y daño contra lo propio."
   },
   {
     "id": 40,
     "nivel": 2,
-    "tema": "Tolerancia",
-    "pregunta": "¿Qué puede ocurrir si la respuesta se dirige contra estructuras normales?",
-    "correcta_texto": "Enfermedad por pérdida de tolerancia",
+    "tema": "CD4+",
+    "pregunta": "Una disminución importante de linfocitos T CD4+ compromete varias ramas de la respuesta. ¿Por qué?",
+    "correcta_texto": "Porque disminuye la coordinación y el apoyo a linfocitos B, macrófagos y otras células",
     "alternativas": [
-      "Enfermedad por pérdida de tolerancia",
-      "Más movimiento ciliar",
-      "IgA se vuelve IgM",
-      "Mayor barrera física"
+      "Porque disminuye la coordinación y el apoyo a linfocitos B, macrófagos y otras células",
+      "Porque los CD4+ son los únicos fagocitos del organismo",
+      "Porque los CD4+ producen todas las inmunoglobulinas",
+      "Porque los CD4+ son la principal barrera física de las mucosas"
     ],
-    "errorComun": "Atacar lo propio refleja un problema de regulación/tolerancia, no de barrera mecánica.",
-    "ideaClave": "La tolerancia evita respuestas dañinas contra tejidos normales."
+    "feedbackIncorrecto": {
+      "Porque los CD4+ son los únicos fagocitos del organismo": "Los CD4+ no son fagocitos.",
+      "Porque los CD4+ producen todas las inmunoglobulinas": "Los anticuerpos son producidos por células plasmáticas.",
+      "Porque los CD4+ son la principal barrera física de las mucosas": "Las barreras mucosas son epiteliales y mecánicas."
+    },
+    "ideaClave": "Los T CD4+ cumplen una función coordinadora de gran alcance."
   },
   {
     "id": 41,
     "nivel": 3,
-    "tema": "Secuencia",
-    "pregunta": "Una bacteria atraviesa una herida. ¿Qué secuencia es más coherente?",
-    "correcta_texto": "Inflamación → fagocitosis → activación adaptativa posterior",
+    "tema": "Secuencia de defensa",
+    "pregunta": "Una bacteria atraviesa la piel lesionada. ¿Qué secuencia representa mejor la relación entre las defensas estudiadas?",
+    "correcta_texto": "Inflamación y fagocitosis iniciales → activación de respuesta adaptativa específica",
     "alternativas": [
-      "Inflamación → fagocitosis → activación adaptativa posterior",
-      "Anticuerpos → piel → inflamación",
-      "Memoria → neutrófilos → entrada",
-      "T específica antes de toda innata"
+      "Inflamación y fagocitosis iniciales → activación de respuesta adaptativa específica",
+      "Expansión clonal → ruptura de la piel → inflamación",
+      "Producción de IgG secundaria → ingreso bacteriano → fagocitosis",
+      "Memoria inmunológica → barrera física → selección clonal"
     ],
-    "errorComun": "La lógica de defensa parte con contención innata y luego progresa hacia especificidad.",
-    "ideaClave": "Tras fallar la barrera, la innata contiene y elimina mientras activa la adaptativa."
+    "feedbackIncorrecto": {
+      "Expansión clonal → ruptura de la piel → inflamación": "La expansión clonal ocurre después del reconocimiento antigénico, no antes del ingreso.",
+      "Producción de IgG secundaria → ingreso bacteriano → fagocitosis": "La respuesta secundaria requiere exposición previa y no antecede al ingreso del agente.",
+      "Memoria inmunológica → barrera física → selección clonal": "La barrera física actúa antes del ingreso y la memoria no se genera antes de una respuesta adaptativa."
+    },
+    "ideaClave": "La defensa progresa desde mecanismos innatos tempranos hacia una respuesta adaptativa específica."
   },
   {
     "id": 42,
     "nivel": 3,
-    "tema": "Respiratoria",
-    "pregunta": "¿Qué relación explica mejor la defensa inicial respiratoria?",
-    "correcta_texto": "Moco atrapa y cilios desplazan",
+    "tema": "Innata-adaptativa",
+    "pregunta": "¿Qué relación explica mejor que la respuesta innata favorezca el inicio de la adaptativa?",
+    "correcta_texto": "Las células presentadoras capturan antígenos y entregan señales a linfocitos específicos",
     "alternativas": [
-      "Moco atrapa y cilios desplazan",
-      "IgG forma cilios",
-      "CD8 genera pH ácido",
-      "Plasmáticas forman epitelio"
+      "Las células presentadoras capturan antígenos y entregan señales a linfocitos específicos",
+      "Los neutrófilos se transforman en linfocitos T",
+      "Las células NK secretan inmunoglobulinas para activar linfocitos B",
+      "Los anticuerpos forman las barreras físicas que activan la inmunidad innata"
     ],
-    "errorComun": "La defensa inicial respiratoria incluye mecanismos físicos y mecánicos de la mucosa.",
-    "ideaClave": "Moco y cilios cooperan para atrapar y remover agentes."
+    "feedbackIncorrecto": {
+      "Los neutrófilos se transforman en linfocitos T": "Los neutrófilos no se convierten en linfocitos.",
+      "Las células NK secretan inmunoglobulinas para activar linfocitos B": "Las NK no producen inmunoglobulinas.",
+      "Los anticuerpos forman las barreras físicas que activan la inmunidad innata": "Los anticuerpos no constituyen barreras físicas."
+    },
+    "ideaClave": "La presentación de antígeno es una vía clave de conexión entre inmunidad innata y adaptativa."
   },
   {
     "id": 43,
     "nivel": 3,
-    "tema": "CPA-T",
-    "pregunta": "¿Qué relación activa una respuesta T específica?",
-    "correcta_texto": "CPA presenta fragmentos al T con receptor adecuado",
+    "tema": "CPA y selección clonal",
+    "pregunta": "Una célula dendrítica presenta un fragmento antigénico a varios linfocitos T, pero solo uno se activa. ¿Qué relación explica el resultado?",
+    "correcta_texto": "La presentación expone el antígeno y la selección clonal activa al linfocito con receptor compatible",
     "alternativas": [
-      "CPA presenta fragmentos al T con receptor adecuado",
-      "Neutrófilo convierte antígeno en IgG",
-      "NK produce receptor B",
-      "Mastocito convierte CD4 en plasmática"
+      "La presentación expone el antígeno y la selección clonal activa al linfocito con receptor compatible",
+      "La presentación vuelve inespecíficos a todos los linfocitos",
+      "La selección clonal activa al linfocito más abundante, aunque no reconozca el antígeno",
+      "La expansión clonal ocurre antes de cualquier reconocimiento"
     ],
-    "errorComun": "La activación T requiere presentación y reconocimiento específico.",
-    "ideaClave": "La CPA presenta y el T específico reconoce."
+    "feedbackIncorrecto": {
+      "La presentación vuelve inespecíficos a todos los linfocitos": "La respuesta adaptativa conserva especificidad.",
+      "La selección clonal activa al linfocito más abundante, aunque no reconozca el antígeno": "La activación depende de compatibilidad receptor-antígeno.",
+      "La expansión clonal ocurre antes de cualquier reconocimiento": "La expansión sigue a la activación del clon específico."
+    },
+    "ideaClave": "Presentación, reconocimiento específico y selección clonal son procesos encadenados."
   },
   {
     "id": 44,
     "nivel": 3,
-    "tema": "Selección-expansión",
-    "pregunta": "¿Cómo se relacionan selección y expansión clonal?",
-    "correcta_texto": "Primero se selecciona el clon y luego prolifera",
+    "tema": "Selección y expansión clonal",
+    "pregunta": "¿Qué relación temporal entre selección clonal y expansión clonal es correcta?",
+    "correcta_texto": "Primero se selecciona el clon específico y luego ese clon prolifera",
     "alternativas": [
-      "Primero se selecciona el clon y luego prolifera",
-      "Primero proliferan todos",
-      "Expansión sin reconocimiento",
-      "Son procesos de neutrófilos"
+      "Primero se selecciona el clon específico y luego ese clon prolifera",
+      "Primero proliferan todos los clones y luego se selecciona uno",
+      "Ambos procesos ocurren solo después de producir anticuerpos",
+      "La expansión clonal elimina la necesidad de reconocimiento específico"
     ],
-    "errorComun": "La expansión ocurre después de seleccionar y activar el clon específico.",
-    "ideaClave": "Selección define especificidad; expansión aumenta el clon."
+    "feedbackIncorrecto": {
+      "Primero proliferan todos los clones y luego se selecciona uno": "La selección depende del reconocimiento específico previo.",
+      "Ambos procesos ocurren solo después de producir anticuerpos": "La activación y expansión preceden a la diferenciación efectora.",
+      "La expansión clonal elimina la necesidad de reconocimiento específico": "La expansión mantiene la especificidad del clon seleccionado."
+    },
+    "ideaClave": "Selección define qué clon responde; expansión aumenta su número."
   },
   {
     "id": 45,
     "nivel": 3,
-    "tema": "B-CD4",
-    "pregunta": "Un B reconoce antígeno y recibe ayuda CD4+. ¿Qué resultado es coherente?",
-    "correcta_texto": "Expansión B y diferenciación en plasmáticas y memoria",
+    "tema": "B y CD4+",
+    "pregunta": "Un linfocito B reconoce un antígeno proteico y recibe señales de un T CD4+. ¿Qué relación funcional se espera?",
+    "correcta_texto": "Mayor activación del linfocito B, seguida de expansión y diferenciación",
     "alternativas": [
-      "Expansión B y diferenciación en plasmáticas y memoria",
-      "B se convierte en neutrófilo",
-      "Pierde especificidad",
-      "Forma barrera física"
+      "Mayor activación del linfocito B, seguida de expansión y diferenciación",
+      "Conversión del B en T CD8+",
+      "Pérdida de especificidad del receptor B",
+      "Transformación del T CD4+ en anticuerpo"
     ],
-    "errorComun": "La cooperación CD4 potencia activación B, no cambia su linaje.",
-    "ideaClave": "El clon B se expande y diferencia en efectores y memoria."
+    "feedbackIncorrecto": {
+      "Conversión del B en T CD8+": "Un linfocito B no se transforma en un linfocito T.",
+      "Pérdida de especificidad del receptor B": "La respuesta conserva la especificidad antigénica.",
+      "Transformación del T CD4+ en anticuerpo": "Las células no se transforman en inmunoglobulinas."
+    },
+    "ideaClave": "La cooperación de T CD4+ puede potenciar la respuesta de linfocitos B."
   },
   {
     "id": 46,
     "nivel": 3,
-    "tema": "CD8",
-    "pregunta": "Una célula está infectada por virus. ¿Qué relación es más apropiada?",
-    "correcta_texto": "T CD8+ reconoce e induce destrucción",
+    "tema": "Humoral vs celular",
+    "pregunta": "¿Qué relación entre ubicación del agente y respuesta adaptativa es correcta?",
+    "correcta_texto": "Agente extracelular: anticuerpos; agente intracelular: mayor relevancia de linfocitos T",
     "alternativas": [
-      "T CD8+ reconoce e induce destrucción",
-      "B produce moco",
-      "Anticuerpo fagocita la célula",
-      "Virus se convierte en IgA"
+      "Agente extracelular: anticuerpos; agente intracelular: mayor relevancia de linfocitos T",
+      "Agente extracelular: T CD8+ exclusivamente; agente intracelular: IgA exclusivamente",
+      "Agente extracelular: células NK como respuesta adaptativa; agente intracelular: células plasmáticas",
+      "La ubicación del agente no modifica qué rama adaptativa predomina"
     ],
-    "errorComun": "La citotoxicidad específica contra células infectadas corresponde a T CD8+.",
-    "ideaClave": "Los T CD8+ eliminan células infectadas o alteradas."
+    "feedbackIncorrecto": {
+      "Agente extracelular: T CD8+ exclusivamente; agente intracelular: IgA exclusivamente": "Invierte las funciones principales descritas.",
+      "Agente extracelular: células NK como respuesta adaptativa; agente intracelular: células plasmáticas": "Las NK son innatas y las células plasmáticas actúan mediante anticuerpos.",
+      "La ubicación del agente no modifica qué rama adaptativa predomina": "La ubicación influye en la utilidad relativa de respuesta humoral o celular."
+    },
+    "ideaClave": "La respuesta humoral es especialmente útil fuera de la célula; la celular, frente a células infectadas."
   },
   {
     "id": 47,
     "nivel": 3,
-    "tema": "Opsonización",
-    "pregunta": "¿Cómo se relaciona opsonización con fagocitosis?",
-    "correcta_texto": "El recubrimiento facilita reconocimiento del fagocito",
+    "tema": "Anticuerpos y fagocitosis",
+    "pregunta": "¿Cómo se relacionan anticuerpos y fagocitos durante la opsonización?",
+    "correcta_texto": "El anticuerpo recubre al agente y facilita su reconocimiento por el fagocito",
     "alternativas": [
-      "El recubrimiento facilita reconocimiento del fagocito",
-      "Anticuerpo reemplaza fagocito",
-      "Impide captura",
-      "Convierte anticuerpo en antígeno"
+      "El anticuerpo recubre al agente y facilita su reconocimiento por el fagocito",
+      "El anticuerpo fagocita directamente al microorganismo",
+      "El fagocito produce el anticuerpo que lo recubre",
+      "La opsonización impide la unión entre fagocito y microorganismo"
     ],
-    "errorComun": "La opsonización mejora la interacción entre agente y fagocito.",
-    "ideaClave": "El recubrimiento del agente favorece su captura."
+    "feedbackIncorrecto": {
+      "El anticuerpo fagocita directamente al microorganismo": "Los anticuerpos no son células y no fagocitan.",
+      "El fagocito produce el anticuerpo que lo recubre": "Los anticuerpos son producidos por células plasmáticas.",
+      "La opsonización impide la unión entre fagocito y microorganismo": "La opsonización facilita esa interacción."
+    },
+    "ideaClave": "La opsonización conecta la especificidad del anticuerpo con la eficiencia de la fagocitosis."
   },
   {
     "id": 48,
     "nivel": 3,
-    "tema": "Complemento",
-    "pregunta": "¿Cómo ayuda la activación del complemento por anticuerpos?",
-    "correcta_texto": "Favorece inflamación, fagocitosis y destrucción",
+    "tema": "Anticuerpos y complemento",
+    "pregunta": "¿Qué relación explica que la unión antígeno-anticuerpo pueda favorecer la eliminación del agente?",
+    "correcta_texto": "Puede activar complemento y potenciar inflamación, fagocitosis y destrucción",
     "alternativas": [
-      "Favorece inflamación, fagocitosis y destrucción",
-      "Suprime células defensivas",
-      "Impide unión antígeno-anticuerpo",
-      "Convierte B en NK"
+      "Puede activar complemento y potenciar inflamación, fagocitosis y destrucción",
+      "Impide que participen células innatas",
+      "Elimina toda necesidad de respuesta inflamatoria",
+      "Convierte las inmunoglobulinas en fagocitos"
     ],
-    "errorComun": "El complemento potencia mecanismos de eliminación, no los suprime.",
-    "ideaClave": "Puede favorecer inflamación, fagocitosis y destrucción del agente."
+    "feedbackIncorrecto": {
+      "Impide que participen células innatas": "Los mecanismos humorales pueden cooperar con la inmunidad innata.",
+      "Elimina toda necesidad de respuesta inflamatoria": "El complemento puede precisamente potenciar la inflamación.",
+      "Convierte las inmunoglobulinas en fagocitos": "Las inmunoglobulinas no se convierten en células."
+    },
+    "ideaClave": "Los anticuerpos pueden cooperar con otros mecanismos efectores, incluido el complemento."
   },
   {
     "id": 49,
     "nivel": 3,
-    "tema": "IgA",
-    "pregunta": "¿Por qué IgA es especialmente relevante en mucosas?",
-    "correcta_texto": "Predomina en secreciones de superficies expuestas",
+    "tema": "IgA y mucosas",
+    "pregunta": "¿Por qué la IgA es especialmente relevante en superficies mucosas?",
+    "correcta_texto": "Porque predomina en secreciones que contactan con esas superficies",
     "alternativas": [
-      "Predomina en secreciones de superficies expuestas",
-      "Es un linfocito",
-      "Forma epitelio",
-      "Es un fagocito"
+      "Porque predomina en secreciones que contactan con esas superficies",
+      "Porque es el principal receptor de T CD8+",
+      "Porque es la inmunoglobulina predominante en la respuesta secundaria sistémica",
+      "Porque activa por sí sola la fagocitosis de neutrófilos en todos los tejidos"
     ],
-    "errorComun": "IgA es una inmunoglobulina secretoria, no una célula ni tejido.",
-    "ideaClave": "IgA predomina en saliva, lágrimas, leche materna y mucosas."
+    "feedbackIncorrecto": {
+      "Porque es el principal receptor de T CD8+": "IgA no es el receptor de T CD8+.",
+      "Porque es la inmunoglobulina predominante en la respuesta secundaria sistémica": "Ese papel corresponde principalmente a IgG.",
+      "Porque activa por sí sola la fagocitosis de neutrófilos en todos los tejidos": "No corresponde a la característica principal descrita para IgA."
+    },
+    "ideaClave": "IgA se relaciona especialmente con mucosas y secreciones."
   },
   {
     "id": 50,
     "nivel": 3,
-    "tema": "IgE-alergia",
-    "pregunta": "¿Qué relación es coherente con alergia?",
-    "correcta_texto": "IgE y células relacionadas con histamina pueden participar",
+    "tema": "IgE y alergia",
+    "pregunta": "¿Qué relación entre IgE y células inflamatorias es coherente con una reacción alérgica?",
+    "correcta_texto": "IgE se asocia a reacciones alérgicas y mastocitos/basófilos participan mediante mediadores como histamina",
     "alternativas": [
-      "IgE y células relacionadas con histamina pueden participar",
-      "IgM forma piel",
-      "CD8 produce moco",
-      "IgA se vuelve eosinófilo"
+      "IgE se asocia a reacciones alérgicas y mastocitos/basófilos participan mediante mediadores como histamina",
+      "IgE predomina en la respuesta secundaria sistémica y activa T CD8+",
+      "IgE es producida por neutrófilos durante la inflamación aguda",
+      "IgE corresponde al principal receptor de linfocitos B en reposo"
     ],
-    "errorComun": "La clase vincula IgE con alergia y mastocitos/basófilos con histamina.",
-    "ideaClave": "IgE participa en alergia y se relaciona con células efectoras inflamatorias."
+    "feedbackIncorrecto": {
+      "IgE predomina en la respuesta secundaria sistémica y activa T CD8+": "La respuesta secundaria sistémica se asocia más a IgG.",
+      "IgE es producida por neutrófilos durante la inflamación aguda": "Los anticuerpos son producidos por células plasmáticas.",
+      "IgE corresponde al principal receptor de linfocitos B en reposo": "La clase asocia principalmente IgD con receptores de superficie en B."
+    },
+    "ideaClave": "IgE se vincula con alergia y defensa frente a parásitos."
   },
   {
     "id": 51,
     "nivel": 3,
     "tema": "Memoria",
-    "pregunta": "¿Qué explica una respuesta secundaria más eficaz?",
-    "correcta_texto": "Persistencia de linfocitos de memoria específicos",
+    "pregunta": "¿Cómo se relacionan células efectoras y células de memoria tras la expansión clonal?",
+    "correcta_texto": "Las efectoras actúan en la respuesta actual y las de memoria persisten para futuras exposiciones",
     "alternativas": [
-      "Persistencia de linfocitos de memoria específicos",
-      "Piel más gruesa",
-      "Neutrófilos se vuelven anticuerpos",
-      "Pérdida de especificidad"
+      "Las efectoras actúan en la respuesta actual y las de memoria persisten para futuras exposiciones",
+      "Ambas cumplen únicamente funciones de barrera física",
+      "Las de memoria actúan solo durante la primera exposición y luego desaparecen",
+      "Las efectoras son siempre innatas y las de memoria siempre neutrófilos"
     ],
-    "errorComun": "La memoria adaptativa conserva especificidad del antígeno.",
-    "ideaClave": "Las células de memoria aceleran y mejoran la respuesta posterior."
+    "feedbackIncorrecto": {
+      "Ambas cumplen únicamente funciones de barrera física": "Las células adaptativas no constituyen barreras físicas.",
+      "Las de memoria actúan solo durante la primera exposición y luego desaparecen": "La memoria se caracteriza por persistir para exposiciones posteriores.",
+      "Las efectoras son siempre innatas y las de memoria siempre neutrófilos": "La distinción ocurre dentro de la respuesta adaptativa."
+    },
+    "ideaClave": "La diferenciación clonal genera células que resuelven la respuesta actual y otras que sostienen la memoria."
   },
   {
     "id": 52,
     "nivel": 3,
-    "tema": "CD4-B",
-    "pregunta": "¿Por qué menos CD4 puede afectar la respuesta humoral?",
-    "correcta_texto": "Porque CD4 puede potenciar la activación B",
+    "tema": "T CD4+ y respuesta humoral",
+    "pregunta": "¿Por qué una alteración de T CD4+ puede disminuir la eficacia de algunas respuestas de anticuerpos?",
+    "correcta_texto": "Porque los T CD4+ pueden aportar señales necesarias para una activación B más eficaz",
     "alternativas": [
-      "Porque CD4 puede potenciar la activación B",
-      "CD4 produce todos los anticuerpos",
-      "B depende de cilios",
-      "CD4 se convierte en IgG"
+      "Porque los T CD4+ pueden aportar señales necesarias para una activación B más eficaz",
+      "Porque los T CD4+ producen directamente todas las inmunoglobulinas",
+      "Porque los T CD4+ reemplazan a las células plasmáticas",
+      "Porque la IgG se forma dentro de los T CD4+"
     ],
-    "errorComun": "Los CD4 cooperan con B pero no producen directamente las inmunoglobulinas.",
-    "ideaClave": "La ayuda CD4 favorece una activación B más eficaz."
+    "feedbackIncorrecto": {
+      "Porque los T CD4+ producen directamente todas las inmunoglobulinas": "Los anticuerpos son producidos por células plasmáticas.",
+      "Porque los T CD4+ reemplazan a las células plasmáticas": "Los T CD4+ coordinan, no sustituyen a las células plasmáticas.",
+      "Porque la IgG se forma dentro de los T CD4+": "Las inmunoglobulinas son producto de células plasmáticas."
+    },
+    "ideaClave": "La coordinación CD4+ puede potenciar la activación y diferenciación de linfocitos B."
   },
   {
     "id": 53,
     "nivel": 3,
-    "tema": "Treg",
-    "pregunta": "¿Cómo se relacionan T reguladores y tolerancia?",
-    "correcta_texto": "Limitan la respuesta y ayudan a proteger lo propio",
+    "tema": "T reguladores y tolerancia",
+    "pregunta": "¿Qué relación funcional existe entre T reguladores y tolerancia inmunológica?",
+    "correcta_texto": "Los T reguladores limitan la respuesta y ayudan a evitar daño contra tejidos propios",
     "alternativas": [
-      "Limitan la respuesta y ayudan a proteger lo propio",
-      "Aumentan toda respuesta",
-      "Eliminan barreras",
-      "Producen cilios"
+      "Los T reguladores limitan la respuesta y ayudan a evitar daño contra tejidos propios",
+      "Los T reguladores aumentan la citotoxicidad contra cualquier célula propia",
+      "Los T reguladores producen anticuerpos contra autoantígenos",
+      "Los T reguladores sustituyen a las barreras epiteliales"
     ],
-    "errorComun": "Los T reguladores frenan, no amplifican indiscriminadamente, la respuesta.",
-    "ideaClave": "Contribuyen al control y tolerancia inmunológica."
+    "feedbackIncorrecto": {
+      "Los T reguladores aumentan la citotoxicidad contra cualquier célula propia": "Su función es limitar respuestas excesivas, no potenciar ataque indiscriminado.",
+      "Los T reguladores producen anticuerpos contra autoantígenos": "Los T reguladores no producen anticuerpos.",
+      "Los T reguladores sustituyen a las barreras epiteliales": "No forman barreras físicas."
+    },
+    "ideaClave": "La regulación es indispensable para defenderse sin dañar lo propio."
   },
   {
     "id": 54,
     "nivel": 3,
-    "tema": "Interacción",
-    "pregunta": "¿Qué resume mejor la cooperación innata-adaptativa?",
-    "correcta_texto": "Rapidez innata + especificidad y memoria adaptativa",
+    "tema": "Pérdida de tolerancia",
+    "pregunta": "¿Qué relación fisiopatológica se desprende de una pérdida de tolerancia a lo propio?",
+    "correcta_texto": "El sistema puede responder contra estructuras normales y producir enfermedad",
     "alternativas": [
-      "Rapidez innata + especificidad y memoria adaptativa",
-      "Adaptativa reemplaza innata",
-      "Innata aparece después",
-      "Tienen mecanismos idénticos"
+      "El sistema puede responder contra estructuras normales y producir enfermedad",
+      "La respuesta deja de reconocer por completo a los agentes extraños",
+      "La inmunidad innata desaparece",
+      "Las células de memoria se convierten en fagocitos"
     ],
-    "errorComun": "Las dos ramas son complementarias y se solapan.",
-    "ideaClave": "La innata inicia y la adaptativa especializa y recuerda."
+    "feedbackIncorrecto": {
+      "La respuesta deja de reconocer por completo a los agentes extraños": "La pérdida de tolerancia se refiere al reconocimiento inapropiado de lo propio.",
+      "La inmunidad innata desaparece": "No es una consecuencia necesaria de la pérdida de tolerancia.",
+      "Las células de memoria se convierten en fagocitos": "No ocurre esa transformación."
+    },
+    "ideaClave": "La tolerancia protege los tejidos propios frente a respuestas inmunitarias dañinas."
   },
   {
     "id": 55,
     "nivel": 3,
-    "tema": "Timo",
-    "pregunta": "¿Qué relación anatómica se menciona para linfocitos T?",
-    "correcta_texto": "Precursores de médula ósea maduran en timo",
+    "tema": "VIH y T CD4+",
+    "pregunta": "¿Cómo se relaciona la disminución de T helper/CD4+ con el debilitamiento inmunitario descrito en la clase?",
+    "correcta_texto": "Reduce señales coordinadoras que apoyan a linfocitos B, macrófagos y otras células",
     "alternativas": [
-      "Precursores de médula ósea maduran en timo",
-      "Maduran en piel",
-      "Maduran en mucosa",
-      "Derivan de plasmáticas"
+      "Reduce señales coordinadoras que apoyan a linfocitos B, macrófagos y otras células",
+      "Impide directamente que la piel actúe como barrera",
+      "Elimina específicamente todos los neutrófilos",
+      "Aumenta obligatoriamente la producción de IgE"
     ],
-    "errorComun": "El timo es el sitio de maduración T descrito en la clase.",
-    "ideaClave": "Los linfocitos T se originan desde precursores hematopoyéticos y maduran en timo."
+    "feedbackIncorrecto": {
+      "Impide directamente que la piel actúe como barrera": "La barrera cutánea no depende directamente de T CD4+.",
+      "Elimina específicamente todos los neutrófilos": "La disminución de CD4+ no equivale a eliminar neutrófilos.",
+      "Aumenta obligatoriamente la producción de IgE": "No es la relación descrita."
+    },
+    "ideaClave": "La pérdida de coordinación CD4+ compromete múltiples respuestas inmunitarias."
   },
   {
     "id": 56,
     "nivel": 3,
-    "tema": "Pérdida tolerancia",
-    "pregunta": "¿Qué consecuencia puede tener perder tolerancia a lo propio?",
-    "correcta_texto": "Respuesta contra tejidos normales y enfermedad",
+    "tema": "Hipersensibilidad tardía",
+    "pregunta": "Una reacción aparece 48 horas después de la exposición y participan linfocitos T que activan macrófagos mediante citocinas. ¿Qué relación describe?",
+    "correcta_texto": "Hipersensibilidad tardía mediada por células T",
     "alternativas": [
-      "Respuesta contra tejidos normales y enfermedad",
-      "No reconocer nada extraño",
-      "Piel se vuelve anticuerpo",
-      "Neutrófilos generan memoria"
+      "Hipersensibilidad tardía mediada por células T",
+      "Respuesta inmediata mediada predominantemente por IgE",
+      "Respuesta primaria humoral dominada por IgM",
+      "Opsonización dependiente de anticuerpos"
     ],
-    "errorComun": "La alteración corresponde a regulación inmunitaria, no a una barrera.",
-    "ideaClave": "La tolerancia evita daño inmunitario contra tejidos normales."
+    "feedbackIncorrecto": {
+      "Respuesta inmediata mediada predominantemente por IgE": "Esa descripción corresponde a un mecanismo alérgico inmediato, no tardío celular.",
+      "Respuesta primaria humoral dominada por IgM": "La situación describe una reacción celular T.",
+      "Opsonización dependiente de anticuerpos": "La opsonización facilita fagocitosis y no define la reacción tardía."
+    },
+    "ideaClave": "La clase relaciona la hipersensibilidad tardía con linfocitos T y activación de macrófagos."
   },
   {
     "id": 57,
     "nivel": 3,
-    "tema": "VIH-CD4",
-    "pregunta": "¿Por qué destruir T helper debilita el sistema inmune?",
-    "correcta_texto": "Reduce coordinación y apoyo a B y macrófagos",
+    "tema": "Trasplante y T CD8+",
+    "pregunta": "¿Qué relación explica que linfocitos T citotóxicos puedan participar frente a células de un trasplante reconocido como extraño?",
+    "correcta_texto": "Los T CD8+ pueden reconocer células extrañas y ejecutar una respuesta citotóxica",
     "alternativas": [
-      "Reduce coordinación y apoyo a B y macrófagos",
-      "Elimina todas las barreras",
-      "Convierte IgA en IgE",
-      "Aumenta neutrófilos"
+      "Los T CD8+ pueden reconocer células extrañas y ejecutar una respuesta citotóxica",
+      "Los T CD8+ producen anticuerpos contra el injerto",
+      "Los T CD8+ actúan como principal barrera física",
+      "Los T CD8+ fagocitan el injerto como neutrófilos"
     ],
-    "errorComun": "El problema principal es la pérdida de función cooperadora central.",
-    "ideaClave": "Los T helper/CD4+ coordinan múltiples componentes inmunitarios."
+    "feedbackIncorrecto": {
+      "Los T CD8+ producen anticuerpos contra el injerto": "Los anticuerpos son producidos por células plasmáticas.",
+      "Los T CD8+ actúan como principal barrera física": "Los T CD8+ son células efectoras, no barreras.",
+      "Los T CD8+ fagocitan el injerto como neutrófilos": "Su mecanismo principal es citotóxico, no fagocítico."
+    },
+    "ideaClave": "Los T citotóxicos pueden atacar células reconocidas como extrañas o alteradas."
   },
   {
     "id": 58,
     "nivel": 3,
-    "tema": "Hipersensibilidad tardía",
-    "pregunta": "Una reacción T aparece 24–72 h y activa macrófagos. ¿Qué concepto es?",
-    "correcta_texto": "Hipersensibilidad tardía",
+    "tema": "IgM e IgG",
+    "pregunta": "¿Qué relación entre IgM e IgG ayuda a distinguir una respuesta primaria de una secundaria?",
+    "correcta_texto": "IgM aparece tempranamente en la primaria; IgG adquiere mayor importancia en la secundaria",
     "alternativas": [
-      "Hipersensibilidad tardía",
-      "Respuesta mucociliar",
-      "IgM primaria",
-      "Opsonización"
+      "IgM aparece tempranamente en la primaria; IgG adquiere mayor importancia en la secundaria",
+      "IgG aparece primero en la primaria; IgM domina la secundaria",
+      "IgM predomina en mucosas; IgG se asocia solo a alergia",
+      "Ambas inmunoglobulinas tienen exactamente el mismo patrón temporal"
     ],
-    "errorComun": "El patrón temporal y la mediación por T corresponden a hipersensibilidad tardía.",
-    "ideaClave": "La clase describe una reacción T tardía mediada por citocinas."
+    "feedbackIncorrecto": {
+      "IgG aparece primero en la primaria; IgM domina la secundaria": "La asociación está invertida respecto de lo estudiado.",
+      "IgM predomina en mucosas; IgG se asocia solo a alergia": "IgA predomina en mucosas e IgE se asocia a alergia.",
+      "Ambas inmunoglobulinas tienen exactamente el mismo patrón temporal": "La clase distingue sus características."
+    },
+    "ideaClave": "El patrón IgM/IgG ayuda a comprender diferencias entre respuesta primaria y secundaria."
   },
   {
     "id": 59,
     "nivel": 3,
-    "tema": "Trasplante-CD8",
-    "pregunta": "¿Por qué T citotóxicos pueden participar frente a células de trasplante?",
-    "correcta_texto": "Pueden reconocer células extrañas y ejecutar citotoxicidad",
+    "tema": "Interacción de mecanismos",
+    "pregunta": "¿Qué relación representa mejor una respuesta inmunitaria coordinada?",
+    "correcta_texto": "Barreras reducen el ingreso; inflamación y fagocitos contienen; la adaptativa aporta especificidad y memoria",
     "alternativas": [
-      "Pueden reconocer células extrañas y ejecutar citotoxicidad",
-      "Anticuerpos son las únicas células",
-      "Neutrófilos se convierten en CD8",
-      "Barreras eliminan injerto"
+      "Barreras reducen el ingreso; inflamación y fagocitos contienen; la adaptativa aporta especificidad y memoria",
+      "La adaptativa actúa primero y luego activa las barreras físicas",
+      "La fagocitosis reemplaza completamente a los anticuerpos",
+      "La memoria inmunológica elimina la necesidad de inmunidad innata"
     ],
-    "errorComun": "Los T citotóxicos ejecutan respuesta celular contra células reconocidas como extrañas.",
-    "ideaClave": "CD8+ puede atacar células infectadas, tumorales o extrañas."
+    "feedbackIncorrecto": {
+      "La adaptativa actúa primero y luego activa las barreras físicas": "Las barreras y la inmunidad innata suelen actuar antes.",
+      "La fagocitosis reemplaza completamente a los anticuerpos": "Los mecanismos cooperan y no se sustituyen por completo.",
+      "La memoria inmunológica elimina la necesidad de inmunidad innata": "La inmunidad innata sigue siendo necesaria."
+    },
+    "ideaClave": "La respuesta eficaz integra mecanismos complementarios en distintas fases."
   },
   {
     "id": 60,
     "nivel": 3,
-    "tema": "Inmunoglobulinas",
-    "pregunta": "¿Qué asociación es correcta?",
-    "correcta_texto": "IgM primaria; IgG secundaria; IgA mucosas; IgE alergia/parásitos",
+    "tema": "Funciones del sistema inmune",
+    "pregunta": "¿Qué relación integra mejor las funciones reconocer, contener, eliminar, recordar y tolerar?",
+    "correcta_texto": "Defender frente a amenazas sin perder el control sobre tejidos propios",
     "alternativas": [
-      "IgM primaria; IgG secundaria; IgA mucosas; IgE alergia/parásitos",
-      "IgG primaria; IgM mucosas; IgA citotoxicidad; IgE memoria T",
-      "IgA citotóxica; IgD fagocito; IgM barrera; IgG cilios",
-      "Todas tienen la misma función predominante"
+      "Defender frente a amenazas sin perder el control sobre tejidos propios",
+      "Maximizar la destrucción de cualquier célula reconocida",
+      "Activar únicamente la respuesta adaptativa",
+      "Evitar toda inflamación incluso durante una infección"
     ],
-    "errorComun": "La clase diferencia características predominantes entre inmunoglobulinas.",
-    "ideaClave": "Cada isotipo presenta una asociación funcional destacada."
+    "feedbackIncorrecto": {
+      "Maximizar la destrucción de cualquier célula reconocida": "Una respuesta indiscriminada dañaría tejidos propios.",
+      "Activar únicamente la respuesta adaptativa": "La defensa incluye mecanismos innatos y adaptativos.",
+      "Evitar toda inflamación incluso durante una infección": "La inflamación puede ser útil para contener amenazas."
+    },
+    "ideaClave": "Una respuesta eficaz necesita defensa, memoria y regulación."
   },
   {
     "id": 61,
     "nivel": 4,
-    "tema": "Caso viral",
-    "pregunta": "En primeras horas de infección viral, antes de anticuerpos específicos, ¿qué defensa predomina?",
-    "correcta_texto": "Mucosa, moco, cilios, fagocitos e inflamación",
+    "tema": "Caso respiratorio",
+    "pregunta": "Una estudiante de 20 años presenta una infección viral respiratoria. Durante las primeras horas hay congestión y respuesta inflamatoria, pero aún no se detectan anticuerpos específicos. ¿Qué mecanismo explica mejor la defensa inicial?",
+    "correcta_texto": "Barreras mucosas, mecanismos mecánicos, fagocitos e inflamación",
     "alternativas": [
-      "Mucosa, moco, cilios, fagocitos e inflamación",
-      "Plasmáticas de memoria exclusivas",
-      "IgG secundaria exclusiva",
-      "Solo B específicos"
+      "Barreras mucosas, mecanismos mecánicos, fagocitos e inflamación",
+      "Expansión de células B de memoria como mecanismo inicial",
+      "Producción predominante de IgG secundaria sin exposición previa",
+      "Citotoxicidad T específica como único mecanismo desde el primer minuto"
     ],
-    "errorComun": "Las primeras horas se explican por mecanismos innatos ya disponibles.",
-    "ideaClave": "La respuesta inmune empieza antes de que aparezcan anticuerpos específicos."
+    "feedbackIncorrecto": {
+      "Expansión de células B de memoria como mecanismo inicial": "La memoria requiere una exposición adaptativa previa.",
+      "Producción predominante de IgG secundaria sin exposición previa": "Una respuesta secundaria presupone memoria previa.",
+      "Citotoxicidad T específica como único mecanismo desde el primer minuto": "La respuesta T específica necesita activación y no constituye la única defensa inicial."
+    },
+    "ideaClave": "Antes de la respuesta específica ya actúan múltiples mecanismos innatos."
   },
   {
     "id": 62,
     "nivel": 4,
-    "tema": "Caso viral",
-    "pregunta": "Días después aparece respuesta muy específica. ¿Qué proceso explica el cambio?",
-    "correcta_texto": "Activación, expansión y diferenciación de linfocitos",
+    "tema": "Caso respiratorio",
+    "pregunta": "En la misma infección, varios días después aumentan linfocitos específicos frente al virus. ¿Qué secuencia explica mejor ese cambio?",
+    "correcta_texto": "Presentación del antígeno → selección clonal → expansión → diferenciación",
     "alternativas": [
-      "Activación, expansión y diferenciación de linfocitos",
-      "Neutrófilos se vuelven linfocitos",
-      "Piel se engruesa",
-      "Desaparece la innata"
+      "Presentación del antígeno → selección clonal → expansión → diferenciación",
+      "Expansión clonal → presentación del antígeno → pérdida de especificidad",
+      "Producción de anticuerpos → selección clonal → reconocimiento",
+      "Fagocitosis → conversión de neutrófilos en linfocitos"
     ],
-    "errorComun": "La especificidad adaptativa exige activación clonal, no sustitución de la innata.",
-    "ideaClave": "La adaptativa requiere reconocer, activarse, proliferar y diferenciarse."
+    "feedbackIncorrecto": {
+      "Expansión clonal → presentación del antígeno → pérdida de especificidad": "La expansión ocurre después del reconocimiento y mantiene especificidad.",
+      "Producción de anticuerpos → selección clonal → reconocimiento": "La selección y expansión preceden a la diferenciación efectora.",
+      "Fagocitosis → conversión de neutrófilos en linfocitos": "Los neutrófilos no se convierten en linfocitos."
+    },
+    "ideaClave": "La respuesta adaptativa sigue una secuencia de reconocimiento, activación, expansión y diferenciación."
   },
   {
     "id": 63,
     "nivel": 4,
-    "tema": "Reexposición",
-    "pregunta": "Meses después responde más rápido al mismo virus. ¿Por qué?",
-    "correcta_texto": "Persisten linfocitos de memoria específicos",
+    "tema": "Caso de reexposición",
+    "pregunta": "Meses más tarde, la estudiante se expone al mismo virus y desarrolla una respuesta adaptativa más rápida. ¿Qué hallazgo explica mejor este comportamiento?",
+    "correcta_texto": "Linfocitos B y/o T de memoria generados en la exposición previa",
     "alternativas": [
-      "Persisten linfocitos de memoria específicos",
-      "Neutrófilos recuerdan específicamente",
-      "Cilios se vuelven específicos",
-      "Todos los anticuerpos reconocen todo"
+      "Linfocitos B y/o T de memoria generados en la exposición previa",
+      "Neutrófilos con receptores específicos adquiridos durante la primera infección",
+      "Aumento permanente de histamina en los tejidos",
+      "Transformación de células NK en células plasmáticas"
     ],
-    "errorComun": "La memoria específica pertenece a la respuesta adaptativa.",
-    "ideaClave": "Las células de memoria aceleran la respuesta frente al mismo antígeno."
+    "feedbackIncorrecto": {
+      "Neutrófilos con receptores específicos adquiridos durante la primera infección": "Los neutrófilos no desarrollan memoria adaptativa específica.",
+      "Aumento permanente de histamina en los tejidos": "La histamina no explica la memoria específica.",
+      "Transformación de células NK en células plasmáticas": "Las NK no se convierten en células plasmáticas."
+    },
+    "ideaClave": "La memoria adaptativa permite responder más rápido ante el mismo antígeno."
   },
   {
     "id": 64,
     "nivel": 4,
-    "tema": "Barrera lesionada",
-    "pregunta": "Una herida rompe la piel y permite entrada bacteriana. ¿Qué ocurre?",
-    "correcta_texto": "Se pierde parte de la primera barrera y aumenta la contención inflamatoria",
+    "tema": "Caso de barrera",
+    "pregunta": "Un paciente con daño extenso del epitelio respiratorio y disminución del movimiento ciliar presenta infecciones recurrentes. ¿Qué explicación integra mejor el problema?",
+    "correcta_texto": "Ha perdido parte de la primera línea de defensa, facilitando el ingreso y persistencia de microorganismos",
     "alternativas": [
-      "Se pierde parte de la primera barrera y aumenta la contención inflamatoria",
-      "Desaparece la memoria",
-      "IgD se vuelve piel",
-      "CD8 forma epidermis"
+      "Ha perdido parte de la primera línea de defensa, facilitando el ingreso y persistencia de microorganismos",
+      "Ha perdido específicamente la memoria de linfocitos T",
+      "No puede realizar selección clonal de linfocitos B",
+      "Ha perdido la capacidad de producir todas las inmunoglobulinas"
     ],
-    "errorComun": "Al fallar la barrera, se activan mecanismos tisulares de contención.",
-    "ideaClave": "La inflamación ayuda a contener cuando una barrera externa es superada."
+    "feedbackIncorrecto": {
+      "Ha perdido específicamente la memoria de linfocitos T": "El defecto descrito es mecánico y epitelial, no de memoria T.",
+      "No puede realizar selección clonal de linfocitos B": "El daño ciliar no implica pérdida de selección clonal.",
+      "Ha perdido la capacidad de producir todas las inmunoglobulinas": "No se desprende del defecto ciliar."
+    },
+    "ideaClave": "Las barreras mucociliares reducen la entrada y permanencia de agentes."
   },
   {
     "id": 65,
     "nivel": 4,
-    "tema": "Inflamación aguda",
-    "pregunta": "En un foco agudo predominan leucocitos de llegada rápida. ¿Cuál esperas?",
-    "correcta_texto": "Neutrófilos",
+    "tema": "Caso inflamatorio",
+    "pregunta": "Un paciente presenta una infección bacteriana cutánea de pocas horas de evolución. El laboratorio del exudado muestra un predominio de una población fagocítica. ¿Qué hallazgo es más esperable?",
+    "correcta_texto": "Predominio de neutrófilos",
     "alternativas": [
-      "Neutrófilos",
-      "B de memoria",
-      "Plasmáticas",
-      "T reguladores"
+      "Predominio de neutrófilos",
+      "Predominio de eosinófilos",
+      "Predominio de linfocitos B de memoria",
+      "Predominio de células plasmáticas"
     ],
-    "errorComun": "La llegada rápida al foco agudo es característica de neutrófilos.",
-    "ideaClave": "Los neutrófilos son protagonistas tempranos de la inflamación aguda."
+    "feedbackIncorrecto": {
+      "Predominio de eosinófilos": "Los eosinófilos se asocian más con parásitos y alergia.",
+      "Predominio de linfocitos B de memoria": "Las células B de memoria pertenecen a la respuesta adaptativa y no predominan típicamente en la fase aguda temprana.",
+      "Predominio de células plasmáticas": "Las células plasmáticas producen anticuerpos y no son el fagocito inicial predominante."
+    },
+    "ideaClave": "En la inflamación aguda temprana los neutrófilos son fagocitos de llegada rápida."
   },
   {
     "id": 66,
     "nivel": 4,
-    "tema": "Macrófago",
-    "pregunta": "Una célula fagocita restos y luego presenta antígeno. ¿Cuál es?",
+    "tema": "Caso macrófago",
+    "pregunta": "En un tejido infectado se identifica una célula que fagocita microorganismos y, posteriormente, presenta antígenos a linfocitos T. ¿Qué célula explica mejor ambos hallazgos?",
     "correcta_texto": "Macrófago",
     "alternativas": [
       "Macrófago",
-      "Eritrocito",
-      "Plasmática",
-      "IgA"
+      "Neutrófilo",
+      "Célula NK",
+      "Célula plasmática"
     ],
-    "errorComun": "La célula descrita combina fagocitosis y presentación antigénica.",
-    "ideaClave": "Los macrófagos fagocitan y pueden actuar como CPA."
+    "feedbackIncorrecto": {
+      "Neutrófilo": "El neutrófilo es un fagocito importante, pero la combinación fagocitosis-presentación se asocia mejor al macrófago.",
+      "Célula NK": "Las NK se especializan en destrucción de células infectadas o alteradas.",
+      "Célula plasmática": "Las células plasmáticas se especializan en secreción de anticuerpos."
+    },
+    "ideaClave": "El macrófago integra funciones innatas y de presentación antigénica."
   },
   {
     "id": 67,
     "nivel": 4,
-    "tema": "Presentación antigénica",
-    "pregunta": "Una dendrítica lleva antígeno a un ganglio y lo muestra a T. ¿Qué ocurre?",
-    "correcta_texto": "Presentación para activar un T específico",
+    "tema": "Caso de presentación antigénica",
+    "pregunta": "Una célula dendrítica de la mucosa captura un antígeno y migra a un ganglio. Allí encuentra varios linfocitos T. ¿Qué condición determina cuál de ellos se activará?",
+    "correcta_texto": "Que el receptor del linfocito reconozca específicamente el antígeno presentado",
     "alternativas": [
-      "Presentación para activar un T específico",
-      "Neutralización IgM",
-      "Movimiento ciliar",
-      "Barrera gástrica"
+      "Que el receptor del linfocito reconozca específicamente el antígeno presentado",
+      "Que el linfocito sea el más abundante del ganglio",
+      "Que el linfocito produzca IgM antes del contacto",
+      "Que el linfocito haya fagocitado previamente al patógeno"
     ],
-    "errorComun": "La escena describe presentación celular, no una barrera o función de anticuerpo.",
-    "ideaClave": "La CPA conecta captura del agente con activación adaptativa."
+    "feedbackIncorrecto": {
+      "Que el linfocito sea el más abundante del ganglio": "La activación depende de especificidad, no solo de abundancia.",
+      "Que el linfocito produzca IgM antes del contacto": "Los linfocitos T no producen inmunoglobulinas.",
+      "Que el linfocito haya fagocitado previamente al patógeno": "La activación T depende del reconocimiento del antígeno presentado."
+    },
+    "ideaClave": "La especificidad receptor-antígeno determina la selección clonal."
   },
   {
     "id": 68,
     "nivel": 4,
-    "tema": "Agente extracelular",
-    "pregunta": "Un microorganismo permanece fuera de las células. ¿Qué respuesta adaptativa es central?",
-    "correcta_texto": "Humoral mediada por B y anticuerpos",
+    "tema": "Caso humoral",
+    "pregunta": "Una bacteria permanece principalmente en el espacio extracelular. Tras activarse la respuesta adaptativa, ¿qué cambio sería más útil para favorecer su eliminación?",
+    "correcta_texto": "Aumento de anticuerpos específicos producidos por células plasmáticas",
     "alternativas": [
-      "Humoral mediada por B y anticuerpos",
-      "T citotóxica exclusiva",
-      "Solo barreras",
-      "Solo NK"
+      "Aumento de anticuerpos específicos producidos por células plasmáticas",
+      "Aumento exclusivo de T CD8+ citotóxicos",
+      "Disminución de la activación de linfocitos B",
+      "Supresión de la opsonización"
     ],
-    "errorComun": "Los agentes extracelulares son blancos clásicos de anticuerpos.",
-    "ideaClave": "La respuesta humoral actúa especialmente frente a agentes extracelulares."
+    "feedbackIncorrecto": {
+      "Aumento exclusivo de T CD8+ citotóxicos": "Los T CD8+ son más relevantes frente a células infectadas.",
+      "Disminución de la activación de linfocitos B": "Eso reduciría la respuesta humoral.",
+      "Supresión de la opsonización": "La opsonización favorece la eliminación del agente."
+    },
+    "ideaClave": "Los anticuerpos son especialmente útiles frente a agentes extracelulares."
   },
   {
     "id": 69,
     "nivel": 4,
-    "tema": "Agente intracelular",
-    "pregunta": "Un virus se replica dentro de células. ¿Qué componente adaptativo gana importancia?",
-    "correcta_texto": "Linfocitos T y respuesta celular",
+    "tema": "Caso viral intracelular",
+    "pregunta": "Un virus se replica dentro de células epiteliales. ¿Qué combinación explica mejor una respuesta adaptativa eficaz?",
+    "correcta_texto": "T CD8+ destruyen células infectadas y T CD4+ coordinan otras respuestas",
     "alternativas": [
-      "Linfocitos T y respuesta celular",
-      "IgA como barrera física",
-      "Moco adaptativo",
-      "Plasmáticas citotóxicas"
+      "T CD8+ destruyen células infectadas y T CD4+ coordinan otras respuestas",
+      "Células plasmáticas destruyen directamente las células infectadas",
+      "IgA actúa como linfocito citotóxico dentro del tejido",
+      "Neutrófilos generan memoria específica frente al virus"
     ],
-    "errorComun": "El problema intracelular requiere respuesta celular, no mecanismos de barrera.",
-    "ideaClave": "Los linfocitos T son centrales frente a células infectadas."
+    "feedbackIncorrecto": {
+      "Células plasmáticas destruyen directamente las células infectadas": "Las células plasmáticas producen anticuerpos; no son citotóxicas.",
+      "IgA actúa como linfocito citotóxico dentro del tejido": "IgA es una inmunoglobulina, no una célula.",
+      "Neutrófilos generan memoria específica frente al virus": "La memoria específica corresponde a linfocitos adaptativos."
+    },
+    "ideaClave": "La respuesta frente a células infectadas requiere especialmente mecanismos celulares T."
   },
   {
     "id": 70,
     "nivel": 4,
-    "tema": "Toxina",
-    "pregunta": "Una toxina pierde actividad tras unirse a anticuerpos. ¿Qué mecanismo ocurrió?",
+    "tema": "Caso toxina",
+    "pregunta": "Una toxina bacteriana circulante queda unida a anticuerpos y pierde capacidad de interactuar con sus blancos celulares. ¿Qué mecanismo explica la protección?",
     "correcta_texto": "Neutralización",
     "alternativas": [
       "Neutralización",
-      "Selección clonal",
-      "Movimiento ciliar",
-      "Citotoxicidad CD8"
+      "Opsonización",
+      "Aglutinación",
+      "Selección clonal"
     ],
-    "errorComun": "La pérdida de acción por unión del anticuerpo define neutralización.",
-    "ideaClave": "Neutralizar significa bloquear o dificultar la acción del agente o toxina."
+    "feedbackIncorrecto": {
+      "Opsonización": "La opsonización facilita la fagocitosis.",
+      "Aglutinación": "La aglutinación agrupa agentes, pero no es el mecanismo descrito aquí.",
+      "Selección clonal": "La selección clonal ocurre durante la activación de linfocitos específicos."
+    },
+    "ideaClave": "La neutralización bloquea la acción del agente o toxina por unión específica."
   },
   {
     "id": 71,
     "nivel": 4,
-    "tema": "Opsonización",
-    "pregunta": "Un agente recubierto por anticuerpos es fagocitado con mayor facilidad. ¿Qué ocurrió?",
-    "correcta_texto": "Opsonización",
+    "tema": "Caso de opsonización",
+    "pregunta": "Una bacteria recubierta por anticuerpos es capturada con mayor eficiencia por macrófagos. ¿Qué relación funcional explica el hallazgo?",
+    "correcta_texto": "Los anticuerpos facilitan el reconocimiento del microorganismo por los fagocitos",
     "alternativas": [
-      "Opsonización",
-      "Tolerancia",
-      "Memoria T",
-      "Barrera química"
+      "Los anticuerpos facilitan el reconocimiento del microorganismo por los fagocitos",
+      "Los anticuerpos reemplazan la función del macrófago",
+      "Los macrófagos producen la inmunoglobulina que los recubre",
+      "La opsonización reduce la capacidad fagocítica"
     ],
-    "errorComun": "La situación describe facilitación de la fagocitosis.",
-    "ideaClave": "La opsonización mejora el reconocimiento por fagocitos."
+    "feedbackIncorrecto": {
+      "Los anticuerpos reemplazan la función del macrófago": "Los anticuerpos facilitan la fagocitosis, no reemplazan al fagocito.",
+      "Los macrófagos producen la inmunoglobulina que los recubre": "Las inmunoglobulinas son producidas por células plasmáticas.",
+      "La opsonización reduce la capacidad fagocítica": "La opsonización aumenta la eficiencia de reconocimiento y captura."
+    },
+    "ideaClave": "La opsonización conecta anticuerpos específicos con fagocitosis."
   },
   {
     "id": 72,
     "nivel": 4,
-    "tema": "Alergia",
-    "pregunta": "Una persona presenta reacción alérgica. ¿Qué asociación es más coherente?",
-    "correcta_texto": "IgE con mastocitos/basófilos e histamina",
+    "tema": "Caso alérgico",
+    "pregunta": "Una persona desarrolla una reacción alérgica inmediata con liberación de histamina. ¿Qué asociación del contenido visto es más coherente?",
+    "correcta_texto": "IgE y participación de mastocitos/basófilos",
     "alternativas": [
-      "IgE con mastocitos/basófilos e histamina",
-      "IgM como barrera",
-      "CD8 forma mucosa",
-      "IgD actúa como neutrófilo"
+      "IgE y participación de mastocitos/basófilos",
+      "IgG y predominio de T CD8+",
+      "IgM y células B de memoria como principal mecanismo inmediato",
+      "IgA y neutrófilos como mecanismo específico principal"
     ],
-    "errorComun": "La alergia se relaciona con IgE y células inflamatorias productoras de mediadores.",
-    "ideaClave": "IgE participa en alergia y se asocia a mastocitos/basófilos."
+    "feedbackIncorrecto": {
+      "IgG y predominio de T CD8+": "No es la asociación principal descrita para alergia inmediata.",
+      "IgM y células B de memoria como principal mecanismo inmediato": "IgM se relaciona con respuesta primaria, no con el mecanismo alérgico descrito.",
+      "IgA y neutrófilos como mecanismo específico principal": "IgA se asocia principalmente a mucosas."
+    },
+    "ideaClave": "La clase relaciona IgE, mastocitos/basófilos e histamina con reacciones alérgicas."
   },
   {
     "id": 73,
     "nivel": 4,
-    "tema": "Parásitos",
-    "pregunta": "En una parasitosis aumentan eosinófilos. ¿Qué dato lo apoya?",
-    "correcta_texto": "Eosinófilos participan en defensa frente a parásitos",
+    "tema": "Caso parasitario",
+    "pregunta": "En una infección parasitaria se observa eosinofilia y participación de una inmunoglobulina asociada también a alergia. ¿Cuál combinación es más coherente?",
+    "correcta_texto": "Eosinófilos e IgE",
     "alternativas": [
-      "Eosinófilos participan en defensa frente a parásitos",
-      "Producen IgG",
-      "Forman barrera ciliar",
-      "Son B de memoria"
+      "Eosinófilos e IgE",
+      "Neutrófilos e IgD",
+      "Macrófagos e IgM como asociación exclusiva",
+      "T CD8+ e IgA"
     ],
-    "errorComun": "La clase asocia eosinófilos con parásitos y alergia.",
-    "ideaClave": "Los eosinófilos son granulocitos relevantes en defensa antiparasitaria."
+    "feedbackIncorrecto": {
+      "Neutrófilos e IgD": "IgD se encuentra principalmente como receptor en B y no es la asociación destacada con parásitos.",
+      "Macrófagos e IgM como asociación exclusiva": "Aunque pueden participar otros mecanismos, la clase destaca eosinófilos e IgE en parásitos.",
+      "T CD8+ e IgA": "No es la asociación principal descrita."
+    },
+    "ideaClave": "Eosinófilos e IgE se relacionan con defensa frente a parásitos."
   },
   {
     "id": 74,
     "nivel": 4,
-    "tema": "Déficit CD4",
-    "pregunta": "Un paciente pierde gran cantidad de T CD4+. ¿Qué efecto integrado esperas?",
-    "correcta_texto": "Menor coordinación y menor apoyo a B y macrófagos",
+    "tema": "Caso CD4+",
+    "pregunta": "Un paciente presenta una disminución marcada de T CD4+. ¿Qué conjunto de consecuencias es más coherente con la función de estas células?",
+    "correcta_texto": "Menor coordinación de macrófagos y linfocitos B, con respuesta adaptativa menos eficiente",
     "alternativas": [
-      "Menor coordinación y menor apoyo a B y macrófagos",
-      "Más anticuerpos automáticos",
-      "CD8 se vuelve plasmática",
-      "Más movimiento ciliar"
+      "Menor coordinación de macrófagos y linfocitos B, con respuesta adaptativa menos eficiente",
+      "Mayor producción automática de todas las inmunoglobulinas",
+      "Mayor citotoxicidad específica por conversión de CD4+ a CD8+",
+      "Mayor eficacia de las barreras mecánicas respiratorias"
     ],
-    "errorComun": "La pérdida de CD4 compromete cooperación entre células inmunes.",
-    "ideaClave": "Los T CD4+ coordinan y potencian múltiples respuestas."
+    "feedbackIncorrecto": {
+      "Mayor producción automática de todas las inmunoglobulinas": "La pérdida de ayuda CD4+ puede disminuir, no aumentar, algunas respuestas humorales.",
+      "Mayor citotoxicidad específica por conversión de CD4+ a CD8+": "Los CD4+ no se convierten en CD8+ como respuesta compensatoria.",
+      "Mayor eficacia de las barreras mecánicas respiratorias": "Las barreras mecánicas no dependen directamente de T CD4+."
+    },
+    "ideaClave": "Los T CD4+ coordinan múltiples componentes de la respuesta inmunitaria."
   },
   {
     "id": 75,
     "nivel": 4,
-    "tema": "T reguladores",
-    "pregunta": "La respuesta comienza a dañar tejidos propios. ¿Qué célula normalmente ayuda a frenarla?",
-    "correcta_texto": "T reguladores",
+    "tema": "Caso T reguladores",
+    "pregunta": "Un paciente desarrolla una respuesta inmunitaria persistente contra tejidos normales. No hay evidencia de infección activa. ¿Qué alteración funcional es más compatible?",
+    "correcta_texto": "Disminución de mecanismos reguladores que mantienen tolerancia a lo propio",
     "alternativas": [
-      "T reguladores",
-      "Neutrófilos productores de anticuerpos",
-      "IgA citotóxica",
-      "Cilios"
+      "Disminución de mecanismos reguladores que mantienen tolerancia a lo propio",
+      "Aumento del aclaramiento mucociliar",
+      "Mayor actividad de barreras químicas",
+      "Aumento aislado de la fagocitosis neutrofílica"
     ],
-    "errorComun": "La regulación y tolerancia corresponden a T reguladores.",
-    "ideaClave": "Los T reguladores limitan la respuesta y ayudan a mantener tolerancia."
+    "feedbackIncorrecto": {
+      "Aumento del aclaramiento mucociliar": "No explica una respuesta contra tejidos propios.",
+      "Mayor actividad de barreras químicas": "Las barreras químicas actúan principalmente frente al ingreso de agentes externos.",
+      "Aumento aislado de la fagocitosis neutrofílica": "La situación apunta a pérdida de tolerancia, no a un aumento aislado de fagocitosis."
+    },
+    "ideaClave": "La tolerancia y regulación evitan que la respuesta defensiva dañe tejidos propios."
   },
   {
     "id": 76,
     "nivel": 4,
-    "tema": "Pérdida tolerancia",
-    "pregunta": "El sistema ataca estructuras normales. ¿Qué función está fallando?",
-    "correcta_texto": "Tolerancia a lo propio",
+    "tema": "Caso hipersensibilidad tardía",
+    "pregunta": "Después de una exposición, una reacción alcanza mayor intensidad entre 24 y 72 horas. Se detectan linfocitos T y activación de macrófagos. ¿Qué mecanismo es más compatible?",
+    "correcta_texto": "Hipersensibilidad tardía mediada por células T",
     "alternativas": [
-      "Tolerancia a lo propio",
-      "Opsonización",
-      "Movimiento ciliar",
-      "Aglutinación"
+      "Hipersensibilidad tardía mediada por células T",
+      "Reacción inmediata mediada predominantemente por IgE",
+      "Respuesta humoral primaria mediada principalmente por IgM",
+      "Neutralización de toxinas por anticuerpos"
     ],
-    "errorComun": "Atacar lo propio refleja pérdida de regulación inmunológica.",
-    "ideaClave": "La tolerancia evita respuestas dañinas contra tejidos normales."
+    "feedbackIncorrecto": {
+      "Reacción inmediata mediada predominantemente por IgE": "La reacción inmediata no corresponde al intervalo temporal ni al mecanismo celular descrito.",
+      "Respuesta humoral primaria mediada principalmente por IgM": "La situación describe una respuesta celular T.",
+      "Neutralización de toxinas por anticuerpos": "No explica la activación T/macrófago descrita."
+    },
+    "ideaClave": "La hipersensibilidad tardía es una reacción celular que aparece horas a días después."
   },
   {
     "id": 77,
     "nivel": 4,
-    "tema": "Primaria-secundaria",
-    "pregunta": "Primera exposición: IgM; segunda: mayor importancia de IgG. ¿Qué integra ambos hallazgos?",
-    "correcta_texto": "Respuesta primaria/secundaria con memoria adaptativa",
+    "tema": "Caso respuesta primaria-secundaria",
+    "pregunta": "Un estudiante compara dos muestras del mismo paciente: tras la primera exposición predomina IgM temprana; tras una exposición posterior aumenta rápidamente IgG. ¿Qué interpretación integra mejor ambos hallazgos?",
+    "correcta_texto": "Se produjo memoria adaptativa y la segunda respuesta fue más eficiente",
     "alternativas": [
-      "Respuesta primaria/secundaria con memoria adaptativa",
-      "Cambio a barrera física",
-      "IgM se vuelve neutrófilo",
-      "Pérdida de especificidad"
+      "Se produjo memoria adaptativa y la segunda respuesta fue más eficiente",
+      "La inmunidad innata adquirió especificidad por el antígeno",
+      "Los neutrófilos se transformaron en células B de memoria",
+      "La segunda exposición eliminó la necesidad de selección clonal"
     ],
-    "errorComun": "La diferencia entre exposiciones refleja memoria adaptativa.",
-    "ideaClave": "IgM destaca en primaria e IgG en secundaria."
+    "feedbackIncorrecto": {
+      "La inmunidad innata adquirió especificidad por el antígeno": "La memoria y alta especificidad corresponden a la respuesta adaptativa.",
+      "Los neutrófilos se transformaron en células B de memoria": "No ocurre esa transformación.",
+      "La segunda exposición eliminó la necesidad de selección clonal": "La respuesta sigue dependiendo de clones específicos."
+    },
+    "ideaClave": "El cambio de patrón IgM/IgG es coherente con respuesta primaria y secundaria."
   },
   {
     "id": 78,
     "nivel": 4,
-    "tema": "Mucosas",
-    "pregunta": "Disminuye mucho IgA en secreciones. ¿Qué defensa se compromete más?",
-    "correcta_texto": "Mucosas y secreciones",
+    "tema": "Caso IgA",
+    "pregunta": "Una persona presenta una disminución marcada de IgA. ¿Qué manifestación funcional sería más coherente con lo estudiado?",
+    "correcta_texto": "Menor protección inmunitaria en mucosas y secreciones",
     "alternativas": [
-      "Mucosas y secreciones",
-      "Citotoxicidad CD8 exclusivamente",
-      "Maduración T en timo",
-      "Fagocitosis sanguínea exclusivamente"
+      "Menor protección inmunitaria en mucosas y secreciones",
+      "Pérdida selectiva de citotoxicidad de T CD8+",
+      "Incapacidad completa para realizar fagocitosis",
+      "Ausencia de maduración de linfocitos T en el timo"
     ],
-    "errorComun": "IgA se asocia especialmente a superficies mucosas y secreciones.",
-    "ideaClave": "IgA predomina en saliva, lágrimas, leche materna y mucosas."
+    "feedbackIncorrecto": {
+      "Pérdida selectiva de citotoxicidad de T CD8+": "La función de T CD8+ no depende directamente de IgA.",
+      "Incapacidad completa para realizar fagocitosis": "La fagocitosis es realizada por neutrófilos y macrófagos.",
+      "Ausencia de maduración de linfocitos T en el timo": "La maduración tímica no depende de IgA."
+    },
+    "ideaClave": "IgA tiene un papel destacado en mucosas y secreciones."
   },
   {
     "id": 79,
     "nivel": 4,
-    "tema": "Integración",
-    "pregunta": "Inflamación recluta células y dendríticas activan T. ¿Qué principio representa?",
-    "correcta_texto": "La innata inicia y favorece la activación adaptativa",
+    "tema": "Caso integración innata-adaptativa",
+    "pregunta": "Durante una infección, una célula dendrítica captura el agente en el tejido y luego activa linfocitos específicos en un ganglio. ¿Qué concepto integra mejor este proceso?",
+    "correcta_texto": "La inmunidad innata puede proporcionar señales que inician la respuesta adaptativa",
     "alternativas": [
-      "La innata inicia y favorece la activación adaptativa",
-      "No interactúan",
-      "La adaptativa termina antes",
-      "Presentación es barrera física"
+      "La inmunidad innata puede proporcionar señales que inician la respuesta adaptativa",
+      "La respuesta adaptativa reemplaza por completo a la innata",
+      "La presentación antigénica es un mecanismo exclusivamente humoral",
+      "La activación de linfocitos ocurre sin reconocimiento específico"
     ],
-    "errorComun": "La escena muestra cooperación secuencial y simultánea entre ambas ramas.",
-    "ideaClave": "La innata aporta señales que favorecen la adaptativa."
+    "feedbackIncorrecto": {
+      "La respuesta adaptativa reemplaza por completo a la innata": "Ambas ramas interactúan y cooperan.",
+      "La presentación antigénica es un mecanismo exclusivamente humoral": "La presentación a linfocitos T pertenece a la activación celular adaptativa.",
+      "La activación de linfocitos ocurre sin reconocimiento específico": "La activación depende de especificidad."
+    },
+    "ideaClave": "La presentación antigénica ejemplifica la cooperación entre inmunidad innata y adaptativa."
   },
   {
     "id": 80,
     "nivel": 4,
     "tema": "Caso global",
-    "pregunta": "¿Qué resume mejor una defensa eficaz ante una infección nueva?",
-    "correcta_texto": "Impedir entrada, contener, eliminar, activar especificidad y generar memoria",
+    "pregunta": "Un microorganismo intenta ingresar por una mucosa, atraviesa la barrera y finalmente activa una respuesta específica. ¿Qué secuencia resume mejor una defensa inmunitaria eficaz?",
+    "correcta_texto": "Barreras → contención inflamatoria/fagocítica → respuesta adaptativa específica → memoria y regulación",
     "alternativas": [
-      "Impedir entrada, contener, eliminar, activar especificidad y generar memoria",
-      "Esperar anticuerpos antes de defender",
-      "Usar una sola célula",
-      "Destruir indiscriminadamente lo propio"
+      "Barreras → contención inflamatoria/fagocítica → respuesta adaptativa específica → memoria y regulación",
+      "Respuesta adaptativa → barreras → inflamación → pérdida de tolerancia",
+      "Memoria → ingreso del agente → selección clonal → primera barrera",
+      "Anticuerpos → destrucción indiscriminada de lo propio → inflamación"
     ],
-    "errorComun": "Una defensa eficaz integra barreras, innata, adaptativa, memoria y tolerancia.",
-    "ideaClave": "El sistema inmune coordina múltiples mecanismos y debe proteger sin dañar lo propio."
+    "feedbackIncorrecto": {
+      "Respuesta adaptativa → barreras → inflamación → pérdida de tolerancia": "El orden y la pérdida de tolerancia no representan una defensa eficaz.",
+      "Memoria → ingreso del agente → selección clonal → primera barrera": "La memoria no precede a la primera exposición y las barreras actúan antes del ingreso.",
+      "Anticuerpos → destrucción indiscriminada de lo propio → inflamación": "La defensa eficaz requiere tolerar lo propio."
+    },
+    "ideaClave": "La respuesta eficaz integra barreras, inmunidad innata, especificidad adaptativa, memoria y tolerancia."
   }
 ]
